@@ -68,9 +68,26 @@ architecture your_code of round_cipher is
   end component ctext_reg;
 
   -- Will need to declare intermediary signals
+  signal ( lower_block          :   std_logic_vector (15 downto 0);     -- lower block (16-bits) of blockcipher
+           upper_block          :   std_logic_vector (15 downto 0;      -- upper block (16-bits) of blockcipher
+           left_shit_1_block    :   std_logic_vector (15 downto 0;      -- 16 bit block to hold the upper block after left shift by 1 bit
+           left_shit_2_block    :   std_logic_vector (15 downto 0;      -- 16 bit block to hold the upper block after left shift by 2 bit
+           left_shit_8_block    :   std_logic_vector (15 downto 0;      -- 16 bit block to hold the upper block after left shift by 8 bit
+           )
 
 begin
   -- YOUR CODE GOES HERE!
+  sl1:  shit_left1 port map(upper_block, left_shit_1_block);
+  sl2:  shit_left2 port map(upper_block, left_shit_2_block);
+  sl8:  shit_left8 port map(upper_block, left_shit_8_block);
+  
+  upper_block <= blockcipher(31 downto 16);     -- separates the blockcipher to 2 halves
+  lower_block <= blockcipher(15 downto 0);
+  
+  process                                       -- HOW MANY ROUNDS????
+    
+    
+  end process
   
   
 end your_code;
