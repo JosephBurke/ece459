@@ -68,24 +68,34 @@ architecture your_code of round_cipher is
   end component ctext_reg;
 
   -- Will need to declare intermediary signals
-  signal ( lower_block          :   std_logic_vector (15 downto 0);     -- lower block (16-bits) of blockcipher
+  signal ( lower_block          :   std_logic_vector (15 downto 0;      -- lower block (16-bits) of blockcipher
            upper_block          :   std_logic_vector (15 downto 0;      -- upper block (16-bits) of blockcipher
-           left_shit_1_block    :   std_logic_vector (15 downto 0;      -- 16 bit block to hold the upper block after left shift by 1 bit
-           left_shit_2_block    :   std_logic_vector (15 downto 0;      -- 16 bit block to hold the upper block after left shift by 2 bit
-           left_shit_8_block    :   std_logic_vector (15 downto 0;      -- 16 bit block to hold the upper block after left shift by 8 bit
+           left_shift_1_block   :   std_logic_vector (15 downto 0;      -- 16 bit block to hold the upper block after left shift by 1 bit
+           left_shift_2_block   :   std_logic_vector (15 downto 0;      -- 16 bit block to hold the upper block after left shift by 2 bit
+           left_shift_8_block   :   std_logic_vector (15 downto 0;      -- 16 bit block to hold the upper block after left shift by 8 bit
+           and_1_8_blocks       :   std_logic_vector (15 downto 0;      -- 16 bit block to hold the AND of the 1 and 8 left shifts
+           and_XOR_lower        :   std_logic_vector (15 downto 0;      -- 16 bit block to hold the XOR of and_1_8_blocks  with lower_block
+           sl2_XOR_xor1         :   std_logic_vector (15 downto 0;      -- 16 bit block to hold the XOR of the left shift by 2 block with the first xor operation
+           xor2_XOR_key         :   std_logic_vector (15 downto 0;      -- 16 bit block to hold the XOR of the xor2 with the key
            )
 
 begin
   -- YOUR CODE GOES HERE!
-  sl1:  shit_left1 port map(upper_block, left_shit_1_block);
-  sl2:  shit_left2 port map(upper_block, left_shit_2_block);
-  sl8:  shit_left8 port map(upper_block, left_shit_8_block);
-  
-  upper_block <= blockcipher(31 downto 16);     -- separates the blockcipher to 2 halves
-  lower_block <= blockcipher(15 downto 0);
-  
   process                                       -- HOW MANY ROUNDS????
-    
+        -- Separates the blockcipher to 2 halves
+        upper_block <= blockcipher(31 downto 16);     
+        lower_block <= blockcipher(15 downto 0);
+               
+        sl1         :   shift_left1 port map(upper_block, left_shift_1_block);                          -- shift left by 1
+        sl8         :   shift_left8 port map(upper_block, left_shift_8_block);                          -- shift left by 8
+        and_1_8     :   and16bit    port map(left_shift_1_block, left_shift_8_block, and_1_8_blocks);   -- AND the 1-bit left shift and the 8-bit left shift blocks
+        sl2         :   shift_left2 port map(upper_block, left_shift_2_block);                          -- shift left by 2
+        xor1        :   xor16bit    port map(and_1_8_blocks, lower_block, and_XOR_lower);               -- XOR the result of the AND operation with the lower block of the blockcipher
+        xor2        :   xor16bit    port map(left_shift_2_block, and_XOR_lower, sl2_XOR_xor1);          -- XOR the result of xor1 with the 2-bit left shift block
+        xor3        :   xor16bit    port map(sl2_XOR_xor1, key_word, xor2_XOR_key);                     -- XOR the result of xor2 with the key
+        
+        lower_block <= upper_block                                                                      -- new lower block is the upper block
+        upper_block <= xor2_XOR_key                                                                     -- new upper block is the result of xor3
     
   end process
   
