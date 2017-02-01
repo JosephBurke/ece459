@@ -81,7 +81,7 @@ architecture your_code of round_cipher is
 
 begin
   -- YOUR CODE GOES HERE!
-  process                                       -- HOW MANY ROUNDS????
+  process                                      
         -- Separates the blockcipher to 2 halves
         upper_block <= blockcipher(31 downto 16);     
         lower_block <= blockcipher(15 downto 0);
@@ -96,6 +96,7 @@ begin
         
         lower_block <= upper_block                                                                      -- new lower block is the upper block
         upper_block <= xor2_XOR_key                                                                     -- new upper block is the result of xor3
+		cipher_text <= lower_block & upper_block;
     
   end process
   
