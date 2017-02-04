@@ -79,9 +79,9 @@ architecture your_code of round_cipher is
            xor2_XOR_key         :   std_logic_vector (15 downto 0;      -- 16 bit block to hold the XOR of the xor2 with the key
            )
 
-begin
   -- YOUR CODE GOES HERE!
-  process                                      
+  process
+  begin  
         -- Separates the blockcipher to 2 halves
         upper_block <= blockcipher(31 downto 16);     
         lower_block <= blockcipher(15 downto 0);
@@ -97,8 +97,9 @@ begin
         lower_block <= upper_block                                                                      -- new lower block is the upper block
         upper_block <= xor2_XOR_key                                                                     -- new upper block is the result of xor3
 		cipher_text <= lower_block & upper_block;
-    
+		wait;
   end process
   
+  begin
   
 end your_code;
