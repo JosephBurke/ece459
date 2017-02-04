@@ -1,0 +1,770 @@
+/*
+
+Vivado v2014.4 (64-bit)
+SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+Process ID: 9876
+
+Current time: 	2/4/17 1:03:45 PM
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1600x900
+Screen resolution (DPI): 96
+Available screens: 2
+
+Java version: 	1.8.0_05 64-bit
+Java home: 	C:/Xilinx/Vivado/2014.4/tps/win64/jre
+
+User name: 	idan8
+User directory: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files
+User country: 	US
+User language: 	en
+User locale: 	en_US
+Vivado preferences path: C:/Users/idan8/AppData/Roaming/Xilinx/Vivado/2014.4/vivado.ini
+Vivado layouts directory: C:/Users/idan8/AppData/Roaming/Xilinx/Vivado/2014.4/layouts/application
+
+GUI allocated memory:	171 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 430 MB
+
+*/
+
+// TclEventType: START_GUI
+// HColorUtils.generateUniqueColorPalette (num colors: 55) elapsed time: 0.6s
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// cm:N (ch:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/lab1.xpr} 
+// Tcl Message: INFO: [Project 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files' 
+// [GUI Memory]: 35 MB (+34187kb) [00:00:05]
+// [Engine Memory]: 345 MB (+210135kb) [00:00:05]
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 37 MB (+2569kb) [00:00:06]
+// [Engine Memory]: 362 MB (+17522kb) [00:00:06]
+// [GUI Memory]: 52 MB (+15590kb) [00:00:06]
+// [Engine Memory]: 389 MB (+28798kb) [00:00:06]
+// [Engine Memory]: 430 MB (+42782kb) [00:00:06]
+// Tcl Message: open_project {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/lab1.xpr} 
+// Tcl Message: INFO: [Project 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.4/data/ip'. 
+// [Engine Memory]: 431 MB (+1576kb) [00:00:07]
+// [Engine Memory]: 432 MB (+430kb) [00:00:07]
+// [Engine Memory]: 432 MB (+376kb) [00:00:07]
+// [Engine Memory]: 433 MB (+1318kb) [00:00:07]
+// [Engine Memory]: 437 MB (+3325kb) [00:00:07]
+// [Engine Memory]: 438 MB (+1306kb) [00:00:08]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 439 MB (+774kb) [00:00:08]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 439 MB (+192kb) [00:00:08]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 52 MB (+96kb) [00:00:08]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 53 MB (+504kb) [00:00:08]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 54 MB (+1043kb) [00:00:08]
+// [Engine Memory]: 440 MB (+1527kb) [00:00:08]
+// [GUI Memory]: 55 MB (+911kb) [00:00:08]
+// [Engine Memory]: 441 MB (+495kb) [00:00:08]
+// [GUI Memory]: 55 MB (+479kb) [00:00:08]
+// [GUI Memory]: 56 MB (+464kb) [00:00:08]
+// [GUI Memory]: 57 MB (+935kb) [00:00:08]
+// [GUI Memory]: 57 MB (+455kb) [00:00:08]
+// HMemoryUtils.trashcanNow. Engine heap size: 441 MB. GUI used memory: 30 MB. Current time: 2/4/17 1:03:47 PM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 441 MB (+602kb) [00:00:08]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 443 MB (+1986kb) [00:00:08]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 444 MB (+671kb) [00:00:09]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 444 MB (+32kb) [00:00:09]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: lab1; location: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 705.016 ; gain = 172.527 
+dismissDialog("Open Project"); // cm:N (ch:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 445 MB (+1646kb) [00:00:11]
+// Tcl Message: update_compile_order -fileset sources_1 
+// [Engine Memory]: 447 MB (+1335kb) [00:00:15]
+// Elapsed time: 23 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // u:k (I:JPanel, ch:JFrame)
+// PAPropertyPanels.initPanels (round_cipher.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, round_cipher.vhd]", 2, false); // u:k (I:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, round_cipher.vhd]", 2, false, false, false, false, false, true); // u:k (I:JPanel, ch:JFrame) - Double Click
+// [Engine Memory]: 450 MB (+3268kb) [00:00:34]
+// [Engine Memory]: 453 MB (+3665kb) [00:00:34]
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near (. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:71]. ]", 19, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;71;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+// [GUI Memory]: 58 MB (+766kb) [00:00:44]
+// [GUI Memory]: 59 MB (+1853kb) [00:00:44]
+// Elapsed time: 17 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near left_shift_2_block. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:73]. ]", 20, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;73;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+// [GUI Memory]: 65 MB (+5387kb) [00:01:02]
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near (. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:85]. ]", 21, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;85;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+// [GUI Memory]: 66 MB (+1401kb) [00:01:04]
+// [Engine Memory]: 459 MB (+6479kb) [00:01:07]
+// Elapsed time: 16 seconds
+selectCodeEditor("round_cipher.vhd", 84, 297); // bi:J (JPanel:JComponent, ch:JFrame)
+// [GUI Memory]: 68 MB (+2422kb) [00:01:30]
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, round_cipher.vhd]", 2, false, false, false, false, true, false); // u:k (I:JPanel, ch:JFrame) - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, round_cipher.vhd]", 2, false); // u:k (I:JPanel, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 83, 297); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 83, 322); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 265, 294); // bi:J (JPanel:JComponent, ch:JFrame)
+typeControlKey(null, null, 'z');
+// [GUI Memory]: 71 MB (+3148kb) [00:01:56]
+typeControlKey(null, null, 'z');
+selectCodeEditor("round_cipher.vhd", 266, 296); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 326, 262); // bi:J (JPanel:JComponent, ch:JFrame)
+// Elapsed time: 11 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near left_shift_2_block. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:73]. ]", 20, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;73;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-806] Syntax error near upper_block. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:87]. ]", 62, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;87;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+// [GUI Memory]: 75 MB (+4254kb) [00:02:28]
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:94]. ]", 63, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;94;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 203, 188); // bi:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 76 MB (+643kb) [00:02:45]
+// Elapsed time: 11 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near (. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:71]. ]", 9, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;71;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+// [GUI Memory]: 77 MB (+1097kb) [00:02:59]
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, and16bit - behavioral (and16bit.vhd)]", 7, false); // u:k (I:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, and16bit - behavioral (and16bit.vhd)]", 7, false, false, false, false, false, true); // u:k (I:JPanel, ch:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, shift_left1 - behavioral (shift_left1.vhd)]", 8, false); // u:k (I:JPanel, ch:JFrame)
+// [GUI Memory]: 78 MB (+1361kb) [00:03:03]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, shift_left1 - behavioral (shift_left1.vhd)]", 8, false, false, false, false, false, true); // u:k (I:JPanel, ch:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, shift_left2 - behavioral (shift_left2.vhd)]", 9, false); // u:k (I:JPanel, ch:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, encrypt_tb - tbench (encrypt_tb.vhd)]", 3); // u:k (I:JPanel, ch:JFrame)
+// [Engine Memory]: 471 MB (+11829kb) [00:03:08]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, encrypt_tb - tbench (encrypt_tb.vhd), test - encrypt - Behavioral (encrypt.vhd)]", 4, true); // u:k (I:JPanel, ch:JFrame) - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 471 MB. GUI used memory: 34 MB. Current time: 2/4/17 1:06:47 PM
+// Elapsed time: 21 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+selectCodeEditor("round_cipher.vhd", 72, 178); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 118, 322); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 33, 180); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 33, 181, false, false, false, false, true); // bi:J (JPanel:JComponent, ch:JFrame) - Double Click
+selectCodeEditor("round_cipher.vhd", 62, 181); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 275, 213); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 75, 184); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 22, 174); // bi:J (JPanel:JComponent, ch:JFrame)
+typeControlKey((HResource) null, "round_cipher.vhd", 'v'); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 23, 196); // bi:J (JPanel:JComponent, ch:JFrame)
+typeControlKey((HResource) null, "round_cipher.vhd", 'v'); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 18, 216); // bi:J (JPanel:JComponent, ch:JFrame)
+typeControlKey((HResource) null, "round_cipher.vhd", 'v'); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 10, 229); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 18, 230); // bi:J (JPanel:JComponent, ch:JFrame)
+typeControlKey((HResource) null, "round_cipher.vhd", 'v'); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 22, 239); // bi:J (JPanel:JComponent, ch:JFrame)
+typeControlKey((HResource) null, "round_cipher.vhd", 'v'); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 23, 265); // bi:J (JPanel:JComponent, ch:JFrame)
+typeControlKey((HResource) null, "round_cipher.vhd", 'v'); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 20, 284); // bi:J (JPanel:JComponent, ch:JFrame)
+typeControlKey((HResource) null, "round_cipher.vhd", 'v'); // bi:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 80 MB (+1451kb) [00:04:16]
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:93]. ]", 9, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;93;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+// [Engine Memory]: 473 MB (+2301kb) [00:04:20]
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, encrypt_tb - tbench (encrypt_tb.vhd)]", 3, true); // u:k (I:JPanel, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, encrypt_tb - tbench (encrypt_tb.vhd)]", 3, true, false, false, false, false, true); // u:k (I:JPanel, ch:JFrame) - Double Click - Node
+// [GUI Memory]: 81 MB (+1030kb) [00:04:37]
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "encrypt_tb.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "round_cipher.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "encrypt_tb.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 164, 128); // bi:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:93]. ]", 9, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;93;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// [GUI Memory]: 85 MB (+4215kb) [00:05:31]
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "round_cipher.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+// [GUI Memory]: 86 MB (+911kb) [00:05:43]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "encrypt_tb.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "round_cipher.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "encrypt_tb.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+// Elapsed time: 10 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near upper_block. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:102]. ]", 16, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;102;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near cipher_text. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:103]. ]", 17, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;103;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near end. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:109]. ]", 18, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;109;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 31 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "round_cipher.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "encrypt_tb.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "round_cipher.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+// Elapsed time: 101 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "encrypt_tb.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 315, 266); // bi:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectCodeEditor("round_cipher.vhd", 406, 302); // bi:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 37 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near end. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:108]. ]", 16, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;108;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+// [Engine Memory]: 474 MB (+856kb) [00:09:32]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "round_cipher.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+// [GUI Memory]: 88 MB (+2565kb) [00:09:37]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "encrypt_tb.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 135, 334); // bi:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// [Engine Memory]: 478 MB (+4505kb) [00:09:49]
+// [GUI Memory]: 89 MB (+986kb) [00:10:03]
+// Elapsed time: 22 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "round_cipher.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "encrypt_tb.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 306, 147); // bi:J (JPanel:JComponent, ch:JFrame)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "round_cipher.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+// Elapsed time: 26 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "encrypt_tb.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:92]. ]", 9, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;92;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:93]. ]", 10, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;93;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "round_cipher.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "encrypt_tb.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 336, 126); // bi:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 216 seconds
+selectCodeEditor("round_cipher.vhd", 216, 150); // bi:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "round_cipher.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "encrypt_tb.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+// [Engine Memory]: 483 MB (+4784kb) [00:15:20]
+// [GUI Memory]: 90 MB (+1090kb) [00:15:45]
+// [GUI Memory]: 91 MB (+833kb) [00:15:49]
+// Elapsed time: 50 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:92]. ]", 9, false); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:92]. ]", 9, false, false, false, false, true, false); // ae:k (JViewport:JComponent, ch:JFrame) - Popup Trigger
+// Elapsed time: 591 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:94]. ]", 11, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;94;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:94]. ]", 11, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;94;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:95]. ]", 12, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;95;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:96]. ]", 13, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;96;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("round_cipher.vhd", 161, 131); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 161, 131, false, false, false, false, true); // bi:J (JPanel:JComponent, ch:JFrame) - Double Click
+typeControlKey((HResource) null, "round_cipher.vhd", 'c'); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 207, 228); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 208, 228, false, false, false, false, true); // bi:J (JPanel:JComponent, ch:JFrame) - Double Click
+typeControlKey((HResource) null, "round_cipher.vhd", 'v'); // bi:J (JPanel:JComponent, ch:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("round_cipher.vhd", 134, 179); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 135, 179, false, false, false, false, true); // bi:J (JPanel:JComponent, ch:JFrame) - Double Click
+typeControlKey((HResource) null, "round_cipher.vhd", 'c'); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 239, 196); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 238, 196, false, false, false, false, true); // bi:J (JPanel:JComponent, ch:JFrame) - Double Click
+typeControlKey((HResource) null, "round_cipher.vhd", 'v'); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 146, 226); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 146, 226, false, false, false, false, true); // bi:J (JPanel:JComponent, ch:JFrame) - Double Click
+typeControlKey((HResource) null, "round_cipher.vhd", 'c'); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 236, 314); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 236, 314, false, false, false, false, true); // bi:J (JPanel:JComponent, ch:JFrame) - Double Click
+typeControlKey((HResource) null, "round_cipher.vhd", 'v'); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 240, 301); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 240, 301, false, false, false, false, true); // bi:J (JPanel:JComponent, ch:JFrame) - Double Click
+typeControlKey((HResource) null, "round_cipher.vhd", 'c'); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 225, 337); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 225, 337, false, false, false, false, true); // bi:J (JPanel:JComponent, ch:JFrame) - Double Click
+typeControlKey((HResource) null, "round_cipher.vhd", 'v'); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 111, 197); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 111, 197, false, false, false, false, true); // bi:J (JPanel:JComponent, ch:JFrame) - Double Click
+typeControlKey((HResource) null, "round_cipher.vhd", 'c'); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 225, 200); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 225, 200, false, false, false, false, true); // bi:J (JPanel:JComponent, ch:JFrame) - Double Click
+typeControlKey((HResource) null, "round_cipher.vhd", 'v'); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 223, 215); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 223, 215, false, false, false, false, true); // bi:J (JPanel:JComponent, ch:JFrame) - Double Click
+typeControlKey((HResource) null, "round_cipher.vhd", 'v'); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 219, 231); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 218, 231, false, false, false, false, true); // bi:J (JPanel:JComponent, ch:JFrame) - Double Click
+typeControlKey((HResource) null, "round_cipher.vhd", 'v'); // bi:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "round_cipher.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "encrypt_tb.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:98]. ]", 15, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;98;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+// [GUI Memory]: 91 MB (+661kb) [00:27:09]
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:92]. ]", 18, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;92;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:93]. ]", 19, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;93;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:94]. ]", 20, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;94;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:95]. ]", 21, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;95;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:96]. ]", 22, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;96;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:97]. ]", 23, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;97;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:98]. ]", 24, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;98;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+// Elapsed time: 48 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:94]. ]", 20, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;94;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:94]. ]", 20, false); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:96]. ]", 22, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;96;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:97]. ]", 23, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;97;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "round_cipher.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "encrypt_tb.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "round_cipher.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "encrypt_tb.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+// [GUI Memory]: 92 MB (+780kb) [00:28:34]
+selectCodeEditor("round_cipher.vhd", 176, 129); // bi:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+typeControlKey(null, null, 'z');
+selectCodeEditor("round_cipher.vhd", 80, 80); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 76, 96); // bi:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 94 MB (+1501kb) [00:28:48]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("round_cipher.vhd", 236, 165); // bi:J (JPanel:JComponent, ch:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("round_cipher.vhd", 82, 123); // bi:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectCodeEditor("round_cipher.vhd", 239, 227); // bi:J (JPanel:JComponent, ch:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// [GUI Memory]: 94 MB (+948kb) [00:29:09]
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("round_cipher.vhd", 105, 132); // bi:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 16 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:92]. ]", 9, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;92;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+// [GUI Memory]: 95 MB (+580kb) [00:32:20]
+// Elapsed time: 158 seconds
+selectCodeEditor("round_cipher.vhd", 589, 129); // bi:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 483 MB. GUI used memory: 40 MB. Current time: 2/4/17 1:36:47 PM
+// Elapsed time: 39 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "round_cipher.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectCodeEditor("encrypt_tb.vhd", 165, 365); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("encrypt_tb.vhd", 165, 365, false, false, false, false, true); // bi:J (JPanel:JComponent, ch:JFrame) - Double Click
+selectCodeEditor("encrypt_tb.vhd", 165, 365); // bi:J (JPanel:JComponent, ch:JFrame)
+typeControlKey((HResource) null, "encrypt_tb.vhd", 'c'); // bi:J (JPanel:JComponent, ch:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "encrypt_tb.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 122, 244); // bi:J (JPanel:JComponent, ch:JFrame)
+typeControlKey((HResource) null, "round_cipher.vhd", 'v'); // bi:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 22 seconds
+selectCodeEditor("round_cipher.vhd", 590, 225); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 590, 225, false, false, false, false, true); // bi:J (JPanel:JComponent, ch:JFrame) - Double Click
+selectCodeEditor("round_cipher.vhd", 590, 225); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 574, 314); // bi:J (JPanel:JComponent, ch:JFrame)
+typeControlKey(null, null, 'z');
+// Elapsed time: 131 seconds
+selectCodeEditor("round_cipher.vhd", 55, 197); // bi:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("round_cipher.vhd", 71, 197); // bi:J (JPanel:JComponent, ch:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("round_cipher.vhd", 163, 316); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 376, 299); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 46, 350); // bi:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 17 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:91]. ]", 9, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;91;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "round_cipher.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "encrypt_tb.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 164, 173); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 167, 200); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 110, 182); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 169, 209); // bi:J (JPanel:JComponent, ch:JFrame)
+typeControlKey(null, null, 'z');
+selectCodeEditor("round_cipher.vhd", 166, 234); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 168, 247); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 168, 262); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 171, 273); // bi:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 51 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:91]. ]", 9, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;91;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:91]. ]", 9, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;91;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:92]. ]", 10, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;92;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:92]. ]", 10, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;92;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:92]. ]", 10, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;92;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:93]. ]", 11, false); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:96]. ]", 14, false); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:95]. ]", 13, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;95;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:95]. ]", 13, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;95;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near port. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:93]. ]", 11, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;93;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+// Elapsed time: 72 seconds
+selectCodeEditor("round_cipher.vhd", 76, 147); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 76, 147, false, false, false, false, true); // bi:J (JPanel:JComponent, ch:JFrame) - Double Click
+selectCodeEditor("round_cipher.vhd", 74, 295); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 73, 295, false, false, false, false, true); // bi:J (JPanel:JComponent, ch:JFrame) - Double Click
+typeControlKey((HResource) null, "round_cipher.vhd", 'c'); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 90, 314); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("round_cipher.vhd", 90, 314, false, false, false, false, true); // bi:J (JPanel:JComponent, ch:JFrame) - Double Click
+typeControlKey((HResource) null, "round_cipher.vhd", 'v'); // bi:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-806] Syntax error near signal. [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:84]. ]", 19, false); // ae:k (JViewport:JComponent, ch:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\lab1\ece459\lab1\Lab1_files\source\round_cipher.vhd;-;;-;15;-;line;-;84;-;;-;15;-;"); // ae:k (JViewport:JComponent, ch:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 127 seconds
+selectCodeEditor("round_cipher.vhd", 81, 279); // bi:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 96 MB (+1468kb) [00:42:34]
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 89 seconds
+selectCodeEditor("round_cipher.vhd", 335, 227); // bi:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 15 seconds
+selectCodeEditor("round_cipher.vhd", 86, 272); // bi:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 41 seconds
+selectCodeEditor("round_cipher.vhd", 350, 280); // bi:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 96 MB (+21kb) [00:56:16]
+// [GUI Memory]: 96 MB (+62kb) [00:56:21]
+// [GUI Memory]: 97 MB (+204kb) [00:56:26]
+// HMemoryUtils.trashcanNow. Engine heap size: 483 MB. GUI used memory: 42 MB. Current time: 2/4/17 2:06:48 PM
+// HMemoryUtils.trashcanNow. Engine heap size: 483 MB. GUI used memory: 37 MB. Current time: 2/4/17 2:36:48 PM
