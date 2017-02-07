@@ -77,10 +77,46 @@ architecture your_code of key_expansion is
     );
   end component xor16bit_triple;
 
-  -- Will need to declare intermediary signals here      
-
+  -- Will need to declare intermediary signals here
+	signal uout0		:	std_logic_vector(15 downto 0);	-- 'C'
+	signal uout1		:	std_logic_vector(15 downto 0);	-- 'Z'
+	signal XOR4_out		:	std_logic_vector(15 downto 0);	-- XOR 'C', 'Z', key0, XOR2, "bambam"
+	signal mux1_out		:	std_logic_vector(15 downto 0); 
+	signal mux2_out		:	std_logic_vector(15 downto 0); 
+	signal mux3_out		:	std_logic_vector(15 downto 0); 
+	signal mux4_out		:	std_logic_vector(15 downto 0); 
+	signal key3			: 	std_logic_vector(15 downto 0);
+	signal key2			: 	std_logic_vector(15 downto 0);
+	signal key1			: 	std_logic_vector(15 downto 0);
+	signal key0			: 	std_logic_vector(15 downto 0);
+	signal sr3_out		:	std_logic_vector(15 downto 0);
+	signal key1_XOR_sr3	:	std_logic_vector(15 downto 0);
+	signal sr1_out		:	std_logic_vector(15 downto 0);
+	signal selector		:	std_logic;
+	signal sANDs       	:   std_logic;
+	signal xor2_out		:	std_logic_vector(15 downto 0);	-- "Wilma"
+	
 begin
-  -- YOUR CODE GOES HERE!
+  
+	selector <='0' when round = "00000000" else '1';
+	
+	sANDs <= sel AND selector;
 
+	u_find		:	u_bit			port map (round, uout0, uout1);
+	xor4		:	xor16bit_triple	port map (uout0, uout1, key0, xor2_out, XOR4_out); 
+	mux1		:	mux2to1			port map (sANDs, key_word(63 downto 48), XOR4_out, key3);
+	key3_reg	:	reg16			port map (clk, reset, mux1_out, key3);
+	mux2		:	mux2to1			port map (sANDs, key_word(47 downto 32), key3, mux2_out);
+	key2_reg	:	reg16			port map (clk, reset, mux2_out, key2);
+	sr3			:	shift_right3	port map (key3, sr3_out);
+	mux3		:	mux2to1			port map (sANDs, key_word(31 downto 16), key2, mux3_out);
+	key1_reg	:	reg16			port map (clk, reset, mux3_out, key1);
+	mux4		:	mux2to1			port map (sANDs, key_word(15 downto 0), key1, mux4_out);
+	key0_reg	:	reg16			port map (clk, reset, mux4_out, key0);
+	xor1		:	xor16bit		port map (key1, sr3_out, key1_XOR_sr3);
+	sr1			:	shift_right1	port map (key1_XOR_sr3, sr1_out);
+	xor2		:	xor16bit		port map (sr1_out, key1_XOR_sr3, xor2_out);
+		
+	key_expansion <= key0;
 
 end your_code;
