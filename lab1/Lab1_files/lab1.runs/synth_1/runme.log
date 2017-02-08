@@ -1,0 +1,439 @@
+
+*** Running vivado
+    with args -log simon_top.vds -m64 -mode batch -messageDb vivado.pb -source simon_top.tcl
+
+
+****** Vivado v2014.4 (64-bit)
+  **** SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+  **** IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source simon_top.tcl
+# set_param gui.test TreeTableDev
+# debug::add_scope template.lib 1
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7a100tcsg324-1
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:0.9 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/0.9/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.0 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/1.0/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.1 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/1.1/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/lab1.cache/wt} [current_project]
+# set_property parent.project_path {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/lab1.xpr} [current_project]
+# set_property default_lib xil_defaultlib [current_project]
+# set_property target_language VHDL [current_project]
+# read_vhdl -library xil_defaultlib {
+#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left8.vhd}
+#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left2.vhd}
+#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left1.vhd}
+#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/and16bit.vhd}
+#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit_triple.vhd}
+#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit.vhd}
+#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/u_bit.vhd}
+#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_right3.vhd}
+#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_right1.vhd}
+#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/16bit_flipflop.vhd}
+#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/mux2to1.vhd}
+#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd}
+#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd}
+#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd}
+#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd}
+#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd}
+#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/FIFO_8I32O.vhd}
+#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/FIFO_32I8O.vhd}
+#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd}
+#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/encrypt.vhd}
+#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/simon_top.vhd}
+# }
+# read_xdc {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/constraint/Nexys4_Master.xdc}}
+# set_property used_in_implementation false [get_files {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/constraint/Nexys4_Master.xdc}}]
+# catch { write_hwdef -file simon_top.hwdef }
+INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
+# synth_design -top simon_top -part xc7a100tcsg324-1
+Command: synth_design -top simon_top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 230.648 ; gain = 73.109
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'simon_top' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/simon_top.vhd:16]
+	Parameter DATAINP_WIDTH bound to: 8 - type: integer 
+	Parameter DATAOUT_WIDTH bound to: 32 - type: integer 
+	Parameter FIFO_DEPTH bound to: 64 - type: integer 
+INFO: [Synth 8-3491] module 'FIFO_8I32O' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/FIFO_8I32O.vhd:5' bound to instance 'F8I32O' of component 'FIFO_8I32O' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/simon_top.vhd:157]
+INFO: [Synth 8-638] synthesizing module 'FIFO_8I32O__parameterized0' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/FIFO_8I32O.vhd:24]
+	Parameter DATAINP_WIDTH bound to: 8 - type: integer 
+	Parameter DATAOUT_WIDTH bound to: 32 - type: integer 
+	Parameter FIFO_DEPTH bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FIFO_8I32O__parameterized0' (1#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/FIFO_8I32O.vhd:24]
+INFO: [Synth 8-3491] module 'encrypt' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/encrypt.vhd:5' bound to instance 'enc' of component 'encrypt' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/simon_top.vhd:160]
+INFO: [Synth 8-638] synthesizing module 'encrypt' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/encrypt.vhd:17]
+INFO: [Synth 8-3491] module 'mux2to1' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/mux2to1.vhd:4' bound to instance 'mux_left' of component 'mux2to1' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/encrypt.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'mux2to1' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/mux2to1.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'mux2to1' (2#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/mux2to1.vhd:13]
+INFO: [Synth 8-3491] module 'mux2to1' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/mux2to1.vhd:4' bound to instance 'mux_right' of component 'mux2to1' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/encrypt.vhd:64]
+INFO: [Synth 8-3491] module 'reg16' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/16bit_flipflop.vhd:4' bound to instance 'reg16_left' of component 'reg16' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/encrypt.vhd:67]
+INFO: [Synth 8-638] synthesizing module 'reg16' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/16bit_flipflop.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'reg16' (3#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/16bit_flipflop.vhd:13]
+INFO: [Synth 8-3491] module 'reg16' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/16bit_flipflop.vhd:4' bound to instance 'reg16_right' of component 'reg16' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/encrypt.vhd:68]
+INFO: [Synth 8-3491] module 'round_cipher' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:9' bound to instance 'round' of component 'round_cipher' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/encrypt.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'round_cipher' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:17]
+INFO: [Synth 8-3491] module 'shift_left1' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left1.vhd:4' bound to instance 'sl1' of component 'shift_left1' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:83]
+INFO: [Synth 8-638] synthesizing module 'shift_left1' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left1.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'shift_left1' (4#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left1.vhd:11]
+INFO: [Synth 8-3491] module 'shift_left8' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left8.vhd:4' bound to instance 'sl8' of component 'shift_left8' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'shift_left8' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left8.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'shift_left8' (5#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left8.vhd:11]
+INFO: [Synth 8-3491] module 'and16bit' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/and16bit.vhd:4' bound to instance 'and_1_8' of component 'and16bit' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'and16bit' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/and16bit.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'and16bit' (6#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/and16bit.vhd:12]
+INFO: [Synth 8-3491] module 'shift_left2' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left2.vhd:4' bound to instance 'sl2' of component 'shift_left2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:86]
+INFO: [Synth 8-638] synthesizing module 'shift_left2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left2.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'shift_left2' (7#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left2.vhd:11]
+INFO: [Synth 8-3491] module 'xor16bit' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit.vhd:4' bound to instance 'xor1' of component 'xor16bit' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'xor16bit' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'xor16bit' (8#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit.vhd:12]
+INFO: [Synth 8-3491] module 'xor16bit' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit.vhd:4' bound to instance 'xor2' of component 'xor16bit' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:88]
+INFO: [Synth 8-3491] module 'xor16bit' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit.vhd:4' bound to instance 'xor3' of component 'xor16bit' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:89]
+INFO: [Synth 8-256] done synthesizing module 'round_cipher' (9#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:17]
+INFO: [Synth 8-3491] module 'key_expansion' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:7' bound to instance 'keys' of component 'key_expansion' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/encrypt.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'key_expansion' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:18]
+INFO: [Synth 8-3491] module 'u_bit' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/u_bit.vhd:5' bound to instance 'u_find' of component 'u_bit' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:99]
+INFO: [Synth 8-638] synthesizing module 'u_bit' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/u_bit.vhd:17]
+	Parameter u bound to: 16'b1111111111111100 
+	Parameter u_sequence bound to: 31'b1111101000100101011000011100110 
+INFO: [Synth 8-256] done synthesizing module 'u_bit' (10#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/u_bit.vhd:17]
+INFO: [Synth 8-3491] module 'xor16bit_triple' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit_triple.vhd:5' bound to instance 'xor4' of component 'xor16bit_triple' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:100]
+INFO: [Synth 8-638] synthesizing module 'xor16bit_triple' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit_triple.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'xor16bit_triple' (11#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit_triple.vhd:14]
+INFO: [Synth 8-3491] module 'mux2to1' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/mux2to1.vhd:4' bound to instance 'mux1' of component 'mux2to1' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:101]
+INFO: [Synth 8-3491] module 'reg16' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/16bit_flipflop.vhd:4' bound to instance 'key3_reg' of component 'reg16' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:102]
+INFO: [Synth 8-3491] module 'mux2to1' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/mux2to1.vhd:4' bound to instance 'mux2' of component 'mux2to1' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:103]
+INFO: [Synth 8-3491] module 'reg16' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/16bit_flipflop.vhd:4' bound to instance 'key2_reg' of component 'reg16' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:104]
+INFO: [Synth 8-3491] module 'shift_right3' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_right3.vhd:4' bound to instance 'sr3' of component 'shift_right3' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'shift_right3' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_right3.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'shift_right3' (12#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_right3.vhd:10]
+INFO: [Synth 8-3491] module 'mux2to1' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/mux2to1.vhd:4' bound to instance 'mux3' of component 'mux2to1' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:106]
+INFO: [Synth 8-3491] module 'reg16' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/16bit_flipflop.vhd:4' bound to instance 'key1_reg' of component 'reg16' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:107]
+INFO: [Synth 8-3491] module 'mux2to1' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/mux2to1.vhd:4' bound to instance 'mux4' of component 'mux2to1' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:108]
+INFO: [Synth 8-3491] module 'reg16' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/16bit_flipflop.vhd:4' bound to instance 'key0_reg' of component 'reg16' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:109]
+INFO: [Synth 8-3491] module 'xor16bit' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit.vhd:4' bound to instance 'xor1' of component 'xor16bit' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:110]
+INFO: [Synth 8-3491] module 'shift_right1' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_right1.vhd:4' bound to instance 'sr1' of component 'shift_right1' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:111]
+INFO: [Synth 8-638] synthesizing module 'shift_right1' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_right1.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'shift_right1' (13#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_right1.vhd:10]
+INFO: [Synth 8-3491] module 'xor16bit' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit.vhd:4' bound to instance 'xor2' of component 'xor16bit' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:112]
+INFO: [Synth 8-256] done synthesizing module 'key_expansion' (14#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'encrypt' (15#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/encrypt.vhd:17]
+INFO: [Synth 8-3491] module 'decrypt' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:5' bound to instance 'dec' of component 'decrypt' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/simon_top.vhd:162]
+INFO: [Synth 8-638] synthesizing module 'decrypt' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:17]
+INFO: [Synth 8-3491] module 'mux2to1' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/mux2to1.vhd:4' bound to instance 'mux_left' of component 'mux2to1' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:79]
+INFO: [Synth 8-3491] module 'mux2to1' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/mux2to1.vhd:4' bound to instance 'mux_right' of component 'mux2to1' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:81]
+INFO: [Synth 8-3491] module 'reg16' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/16bit_flipflop.vhd:4' bound to instance 'reg16_left' of component 'reg16' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:86]
+INFO: [Synth 8-3491] module 'reg16' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/16bit_flipflop.vhd:4' bound to instance 'reg16_right' of component 'reg16' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:87]
+INFO: [Synth 8-3491] module 'round_cipher' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:9' bound to instance 'round' of component 'round_cipher' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:92]
+INFO: [Synth 8-3491] module 'key_expansion' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:7' bound to instance 'keys' of component 'key_expansion' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:96]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-638] synthesizing module 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'reg16_en' (16#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:13]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-256] done synthesizing module 'decrypt' (17#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:17]
+	Parameter DATAINP_WIDTH bound to: 32 - type: integer 
+	Parameter DATAOUT_WIDTH bound to: 8 - type: integer 
+	Parameter FIFO_DEPTH bound to: 64 - type: integer 
+INFO: [Synth 8-3491] module 'FIFO_32I8O' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/FIFO_32I8O.vhd:5' bound to instance 'F32I8O' of component 'FIFO_32I8O' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/simon_top.vhd:171]
+INFO: [Synth 8-638] synthesizing module 'FIFO_32I8O__parameterized0' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/FIFO_32I8O.vhd:23]
+	Parameter DATAINP_WIDTH bound to: 32 - type: integer 
+	Parameter DATAOUT_WIDTH bound to: 8 - type: integer 
+	Parameter FIFO_DEPTH bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FIFO_32I8O__parameterized0' (18#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/FIFO_32I8O.vhd:23]
+INFO: [Synth 8-3491] module 'uart_rx6' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:84' bound to instance 'rx' of component 'uart_rx6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/simon_top.vhd:175]
+INFO: [Synth 8-638] synthesizing module 'uart_rx6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:100]
+	Parameter INIT bound to: 16'b0000000000000000 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:203]
+	Parameter INIT bound to: 16'b0000000000000000 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:203]
+	Parameter INIT bound to: 16'b0000000000000000 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:203]
+	Parameter INIT bound to: 16'b0000000000000000 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:203]
+	Parameter INIT bound to: 16'b0000000000000000 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:203]
+	Parameter INIT bound to: 16'b0000000000000000 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:203]
+	Parameter INIT bound to: 16'b0000000000000000 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:203]
+	Parameter INIT bound to: 16'b0000000000000000 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:203]
+	Parameter INIT bound to: 64'b1111111100000000111111100000000011111111100000001111111100000000 
+INFO: [Synth 8-113] binding component instance 'pointer3_lut' to cell 'LUT6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:217]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'pointer3_flop' to cell 'FDR' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:227]
+	Parameter INIT bound to: 64'b1111000011110000111000011110000011111000011110001111000011110000 
+INFO: [Synth 8-113] binding component instance 'pointer2_lut' to cell 'LUT6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:233]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'pointer2_flop' to cell 'FDR' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:243]
+	Parameter INIT bound to: 64'b1100110010010000011000001100110010101010010100000101000010101010 
+INFO: [Synth 8-113] binding component instance 'pointer01_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:250]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'pointer1_flop' to cell 'FDR' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:261]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'pointer0_flop' to cell 'FDR' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:267]
+	Parameter INIT bound to: 64'b1111010011111100111101001111110000000100000000000000010011000000 
+INFO: [Synth 8-113] binding component instance 'data_present_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:273]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data_present_flop' to cell 'FDR' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:284]
+	Parameter INIT bound to: 64'b0000000000000001000000000000000010000000000000000000000000000000 
+INFO: [Synth 8-113] binding component instance 'full_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:290]
+	Parameter INIT bound to: 64'b1100110011110000000000000000000010101010110011000000000000000000 
+INFO: [Synth 8-113] binding component instance 'sample_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:301]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'sample_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:312]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'sample_dly_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:317]
+	Parameter INIT bound to: 64'b1100101011111111110010101111111100000000000000001100000011000000 
+INFO: [Synth 8-113] binding component instance 'stop_bit_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:322]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'buffer_write_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:333]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'stop_bit_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:338]
+	Parameter INIT bound to: 64'b1111000011001100111111111111111111001100101010101111111111111111 
+INFO: [Synth 8-113] binding component instance 'data01_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:343]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data0_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:354]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data1_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:359]
+	Parameter INIT bound to: 64'b1111000011001100111111111111111111001100101010101111111111111111 
+INFO: [Synth 8-113] binding component instance 'data23_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:365]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data2_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:376]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data3_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:381]
+	Parameter INIT bound to: 64'b1111000011001100111111111111111111001100101010101111111111111111 
+INFO: [Synth 8-113] binding component instance 'data45_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:386]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data4_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:397]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data5_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:402]
+	Parameter INIT bound to: 64'b1111000011001100111111111111111111001100101010101111111111111111 
+INFO: [Synth 8-113] binding component instance 'data67_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:407]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data6_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:418]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data7_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:423]
+	Parameter INIT bound to: 64'b0010111100101111101011111010111100000000000000001111111100000000 
+INFO: [Synth 8-113] binding component instance 'run_lut' to cell 'LUT6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:428]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'run_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:438]
+	Parameter INIT bound to: 64'b0010001000100010000000001111000000000000000000000000000000000000 
+INFO: [Synth 8-113] binding component instance 'start_bit_lut' to cell 'LUT6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:443]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'start_bit_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:453]
+	Parameter INIT bound to: 64'b0110110000000000000000000000000001011010000000000000000000000000 
+INFO: [Synth 8-113] binding component instance 'div01_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:458]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'div0_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:469]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'div1_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:474]
+	Parameter INIT bound to: 64'b0110110011001100000000000000000001011010101010100000000000000000 
+INFO: [Synth 8-113] binding component instance 'div23_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:479]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'div2_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:490]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'div3_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:495]
+	Parameter INIT bound to: 64'b0000000010000000000000000000000010001000100010001000100010001000 
+INFO: [Synth 8-113] binding component instance 'sample_input_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:500]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'sample_input_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:511]
+INFO: [Synth 8-256] done synthesizing module 'uart_rx6' (19#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:100]
+INFO: [Synth 8-3491] module 'uart_tx6' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:84' bound to instance 'tx' of component 'uart_tx6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/simon_top.vhd:185]
+INFO: [Synth 8-638] synthesizing module 'uart_tx6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:100]
+	Parameter INIT bound to: 16'b0000000000000000 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:190]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'storage_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:201]
+	Parameter INIT bound to: 16'b0000000000000000 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:190]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'storage_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:201]
+	Parameter INIT bound to: 16'b0000000000000000 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:190]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'storage_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:201]
+	Parameter INIT bound to: 16'b0000000000000000 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:190]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'storage_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:201]
+	Parameter INIT bound to: 16'b0000000000000000 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:190]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'storage_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:201]
+	Parameter INIT bound to: 16'b0000000000000000 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:190]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'storage_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:201]
+	Parameter INIT bound to: 16'b0000000000000000 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:190]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'storage_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:201]
+	Parameter INIT bound to: 16'b0000000000000000 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:190]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'storage_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:201]
+	Parameter INIT bound to: 64'b1111111100000000111111100000000011111111100000001111111100000000 
+INFO: [Synth 8-113] binding component instance 'pointer3_lut' to cell 'LUT6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:209]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'pointer3_flop' to cell 'FDR' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:219]
+	Parameter INIT bound to: 64'b1111000011110000111000011110000011111000011110001111000011110000 
+INFO: [Synth 8-113] binding component instance 'pointer2_lut' to cell 'LUT6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:225]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'pointer2_flop' to cell 'FDR' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:235]
+	Parameter INIT bound to: 64'b1100110010010000011000001100110010101010010100000101000010101010 
+INFO: [Synth 8-113] binding component instance 'pointer01_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:242]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'pointer1_flop' to cell 'FDR' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:253]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'pointer0_flop' to cell 'FDR' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:259]
+	Parameter INIT bound to: 64'b1111010011111100111101001111110000000100000000000000010011000000 
+INFO: [Synth 8-113] binding component instance 'data_present_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:265]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data_present_flop' to cell 'FDR' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:276]
+	Parameter INIT bound to: 64'b0000000000000001000000000000000010000000000000000000000000000000 
+INFO: [Synth 8-113] binding component instance 'full_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:282]
+	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
+INFO: [Synth 8-113] binding component instance 'lsb_data_lut' to cell 'LUT6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:293]
+	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
+INFO: [Synth 8-113] binding component instance 'msb_data_lut' to cell 'LUT6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:304]
+	Parameter INIT bound to: 64'b1100111110101010110011000000111100001111111111111111111111111111 
+INFO: [Synth 8-113] binding component instance 'serial_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:314]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'serial_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:325]
+	Parameter INIT bound to: 64'b1000010101010000000000000000000010101010101010101010101010101010 
+INFO: [Synth 8-113] binding component instance 'sm0_lut' to cell 'LUT6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:330]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'sm0_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:340]
+	Parameter INIT bound to: 64'b0010011001100001000000000000000011001100110011001100110011001100 
+INFO: [Synth 8-113] binding component instance 'sm1_lut' to cell 'LUT6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:345]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'sm1_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:355]
+	Parameter INIT bound to: 64'b1000100001110000000000000000000011110000111100001111000011110000 
+INFO: [Synth 8-113] binding component instance 'sm2_lut' to cell 'LUT6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:360]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'sm2_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:370]
+	Parameter INIT bound to: 64'b1000011101000100000000000000000011111111000000001111111100000000 
+INFO: [Synth 8-113] binding component instance 'sm3_lut' to cell 'LUT6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:375]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'sm3_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:385]
+	Parameter INIT bound to: 64'b0110110000000000000000000000000001011010000000000000000000000000 
+INFO: [Synth 8-113] binding component instance 'div01_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:391]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'div0_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:402]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'div1_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:407]
+	Parameter INIT bound to: 64'b0111111110000000111111110000000001111000011110001111000011110000 
+INFO: [Synth 8-113] binding component instance 'div23_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:412]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'div2_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:423]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'div3_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:428]
+	Parameter INIT bound to: 64'b0000000000000000000000000000000010000000000000000000000000000000 
+INFO: [Synth 8-113] binding component instance 'next_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:433]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'next_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:444]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'read_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:449]
+INFO: [Synth 8-256] done synthesizing module 'uart_tx6' (20#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:100]
+INFO: [Synth 8-4471] merging register 'read_from_uart_rx_reg' into 'WriteEn_8IN_reg' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/simon_top.vhd:178]
+INFO: [Synth 8-256] done synthesizing module 'simon_top' (21#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/simon_top.vhd:16]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 265.785 ; gain = 108.246
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 265.785 ; gain = 108.246
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 67 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2014.4/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2014.4/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/ConfigModes.xml
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/constraint/Nexys4_Master.xdc]
+Finished Parsing XDC File [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/constraint/Nexys4_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 67 instances were transformed.
+  FD => FDRE: 38 instances
+  FDR => FDRE: 10 instances
+  LUT6_2 => LUT6_2 (LUT6, LUT5): 19 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+215 Infos, 0 Warnings, 0 Critical Warnings and 1 Errors encountered.
+synth_design failed
+ERROR: [Designutils 20-411] The directory './.Xil/Vivado-8904-DESKTOP-S44QPG0/realtime' could not be deleted and may be locked. This directory may need to be manually deleted to continue.
+
+    while executing
+"synth_design -top simon_top -part xc7a100tcsg324-1"
+    (file "simon_top.tcl" line 44)
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 08 11:40:46 2017...

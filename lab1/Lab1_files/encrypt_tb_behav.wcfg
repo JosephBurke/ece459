@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="encrypt_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="encrypt_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject db_ref_id="1" fp_name="/encrypt_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/encrypt_tb/ptext" type="array">
+      <obj_property name="ElementShortName">ptext[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ptext[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/encrypt_tb/keyw" type="array">
+      <obj_property name="ElementShortName">keyw[63:0]</obj_property>
+      <obj_property name="ObjectShortName">keyw[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/encrypt_tb/ctext" type="array">
+      <obj_property name="ElementShortName">ctext[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ctext[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/encrypt_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/encrypt_tb/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/encrypt_tb/done_flg" type="logic">
+      <obj_property name="ElementShortName">done_flg</obj_property>
+      <obj_property name="ObjectShortName">done_flg</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/encrypt_tb/run_flg" type="logic">
+      <obj_property name="ElementShortName">run_flg</obj_property>
+      <obj_property name="ObjectShortName">run_flg</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/encrypt_tb/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,31 @@
+Determining compilation order of HDL files.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity shift_left8
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity shift_left2
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity shift_left1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/and16bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity and16bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit_triple.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity xor16bit_triple
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity xor16bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/u_bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity u_bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_right3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity shift_right3
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_right1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity shift_right1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/16bit_flipflop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity reg16
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/mux2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/ROUND_CIPHER.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity round_cipher
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/KEY_EXPANSION.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity key_expansion
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/encrypt.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity encrypt
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/encrypt_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity encrypt_tb

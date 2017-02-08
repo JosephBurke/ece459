@@ -1,0 +1,34 @@
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 76b944bf1488430a9192515b29231861 --debug typical --relax -L xil_defaultlib -L secureip --snapshot encrypt_tb_behav xil_defaultlib.encrypt_tb -log elaborate.log 
+Multi-threading is on. Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package std.textio
+Compiling package ieee.std_logic_textio
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.std_logic_signed
+Compiling architecture behavioral of entity xil_defaultlib.mux2to1 [mux2to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg16 [reg16_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_left1 [shift_left1_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_left8 [shift_left8_default]
+Compiling architecture behavioral of entity xil_defaultlib.and16bit [and16bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_left2 [shift_left2_default]
+Compiling architecture behavioral of entity xil_defaultlib.xor16bit [xor16bit_default]
+Compiling architecture your_code of entity xil_defaultlib.round_cipher [round_cipher_default]
+Compiling architecture behavioral of entity xil_defaultlib.u_bit [\u_bit("1111111111111100","11111...]
+Compiling architecture behavioral of entity xil_defaultlib.xor16bit_triple [xor16bit_triple_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_right3 [shift_right3_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_right1 [shift_right1_default]
+Compiling architecture your_code of entity xil_defaultlib.key_expansion [key_expansion_default]
+Compiling architecture behavioral of entity xil_defaultlib.encrypt [encrypt_default]
+Compiling architecture tbench of entity xil_defaultlib.encrypt_tb
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot encrypt_tb_behav
