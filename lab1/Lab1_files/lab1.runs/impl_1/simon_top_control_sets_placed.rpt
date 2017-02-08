@@ -1,0 +1,94 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Wed Feb 08 11:45:56 2017
+| Host         : DESKTOP-S44QPG0 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file simon_top_control_sets_placed.rpt
+| Design       : simon_top
+| Device       : xc7a100t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    41 |
+| Minimum Number of register sites lost to control set restrictions |    13 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              59 |           18 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             334 |          101 |
+| Yes          | No                    | No                     |              26 |           11 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             544 |          241 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------+------------------------------------+-----------------------+------------------+----------------+
+|  Clock Signal  |            Enable Signal           |    Set/Reset Signal   | Slice Load Count | Bel Load Count |
++----------------+------------------------------------+-----------------------+------------------+----------------+
+|  clk_IBUF_BUFG |                                    | n_0_baud_count[5]_i_1 |                1 |              6 |
+|  clk_IBUF_BUFG | n_0_write_to_uart_tx_reg           |                       |                1 |              8 |
+|  clk_IBUF_BUFG | rx/n_0_buffer_write_flop           |                       |                1 |              8 |
+|  clk_IBUF_BUFG | F32I8O/n_0_DataOut[7]_i_1          |                       |                3 |             10 |
+|  clk_IBUF_BUFG | dec/enb                            | reset_IBUF            |                7 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_key_round[15]_i_1          |                       |                8 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[0]              | reset_IBUF            |                7 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[10]             | reset_IBUF            |                7 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[11]             | reset_IBUF            |                9 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[12]             | reset_IBUF            |                7 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[13]             | reset_IBUF            |                6 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[14]             | reset_IBUF            |                8 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[15]             | reset_IBUF            |                9 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[16]             | reset_IBUF            |                7 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[17]             | reset_IBUF            |                7 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[18]             | reset_IBUF            |                8 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[19]             | reset_IBUF            |                9 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[1]              | reset_IBUF            |                6 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[20]             | reset_IBUF            |                7 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[21]             | reset_IBUF            |                9 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[22]             | reset_IBUF            |                7 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[23]             | reset_IBUF            |                8 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[24]             | reset_IBUF            |                5 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[25]             | reset_IBUF            |                7 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[26]             | reset_IBUF            |                5 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[27]             | reset_IBUF            |                7 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[28]             | reset_IBUF            |                5 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[29]             | reset_IBUF            |                9 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[2]              | reset_IBUF            |                8 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[30]             | reset_IBUF            |                7 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[3]              | reset_IBUF            |                9 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[4]              | reset_IBUF            |                6 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[5]              | reset_IBUF            |                7 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[6]              | reset_IBUF            |                7 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[7]              | reset_IBUF            |               10 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[8]              | reset_IBUF            |                7 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_sample_reg[9]              | reset_IBUF            |                6 |             16 |
+|  clk_IBUF_BUFG | dec/n_0_temp[0]_i_2                | dec/n_0_temp[0]_i_1   |                8 |             32 |
+|  clk_IBUF_BUFG | F32I8O/n_0_Memory_reg_0_63_0_2_i_4 |                       |               11 |             44 |
+|  clk_IBUF_BUFG |                                    |                       |               18 |             59 |
+|  clk_IBUF_BUFG |                                    | reset_IBUF            |              100 |            328 |
++----------------+------------------------------------+-----------------------+------------------+----------------+
+
+

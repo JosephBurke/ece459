@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Wed Feb 08 11:17:48 2017
+# Process ID: 7708
+# Log file: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/vivado.log
+# Journal file: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/lab1.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files\encrypt_tb_behav.wcfg}
+source encrypt_tb.tcl
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+close_sim

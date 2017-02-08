@@ -10,35 +10,35 @@ set_msg_config -id {HDL 9-1654} -limit 100000
 create_project -in_memory -part xc7a100tcsg324-1
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/lab1.cache/wt} [current_project]
-set_property parent.project_path {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/lab1.xpr} [current_project]
+set_property webtalk.parent_dir C:/Users/idan8/Desktop/lab1/Lab1_files/lab1.cache/wt [current_project]
+set_property parent.project_path C:/Users/idan8/Desktop/lab1/Lab1_files/lab1.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 read_vhdl -library xil_defaultlib {
-  {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left8.vhd}
-  {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left2.vhd}
-  {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left1.vhd}
-  {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/and16bit.vhd}
-  {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit_triple.vhd}
-  {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit.vhd}
-  {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/u_bit.vhd}
-  {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_right3.vhd}
-  {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_right1.vhd}
-  {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/16bit_flipflop.vhd}
-  {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/mux2to1.vhd}
-  {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd}
-  {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd}
-  {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd}
-  {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd}
-  {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd}
-  {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/FIFO_8I32O.vhd}
-  {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/FIFO_32I8O.vhd}
-  {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd}
-  {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/encrypt.vhd}
-  {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/simon_top.vhd}
+  C:/Users/idan8/Desktop/lab1/Lab1_files/source/shift_left8.vhd
+  C:/Users/idan8/Desktop/lab1/Lab1_files/source/shift_left2.vhd
+  C:/Users/idan8/Desktop/lab1/Lab1_files/source/shift_left1.vhd
+  C:/Users/idan8/Desktop/lab1/Lab1_files/source/and16bit.vhd
+  C:/Users/idan8/Desktop/lab1/Lab1_files/source/xor16bit_triple.vhd
+  C:/Users/idan8/Desktop/lab1/Lab1_files/source/xor16bit.vhd
+  C:/Users/idan8/Desktop/lab1/Lab1_files/source/u_bit.vhd
+  C:/Users/idan8/Desktop/lab1/Lab1_files/source/shift_right3.vhd
+  C:/Users/idan8/Desktop/lab1/Lab1_files/source/shift_right1.vhd
+  C:/Users/idan8/Desktop/lab1/Lab1_files/source/16bit_flipflop.vhd
+  C:/Users/idan8/Desktop/lab1/Lab1_files/source/mux2to1.vhd
+  C:/Users/idan8/Desktop/lab1/Lab1_files/source/round_cipher.vhd
+  C:/Users/idan8/Desktop/lab1/Lab1_files/source/key_expansion.vhd
+  C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd
+  C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd
+  C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd
+  C:/Users/idan8/Desktop/lab1/Lab1_files/source/FIFO_8I32O.vhd
+  C:/Users/idan8/Desktop/lab1/Lab1_files/source/FIFO_32I8O.vhd
+  C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd
+  C:/Users/idan8/Desktop/lab1/Lab1_files/source/encrypt.vhd
+  C:/Users/idan8/Desktop/lab1/Lab1_files/source/simon_top.vhd
 }
-read_xdc {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/constraint/Nexys4_Master.xdc}}
-set_property used_in_implementation false [get_files {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/constraint/Nexys4_Master.xdc}}]
+read_xdc C:/Users/idan8/Desktop/lab1/Lab1_files/constraint/Nexys4_Master.xdc
+set_property used_in_implementation false [get_files C:/Users/idan8/Desktop/lab1/Lab1_files/constraint/Nexys4_Master.xdc]
 
 catch { write_hwdef -file simon_top.hwdef }
 synth_design -top simon_top -part xc7a100tcsg324-1

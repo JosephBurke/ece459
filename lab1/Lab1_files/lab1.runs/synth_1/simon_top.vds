@@ -2,10 +2,10 @@
 # Vivado v2014.4 (64-bit)
 # SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
 # IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
-# Start of session at: Wed Feb 08 11:40:29 2017
-# Process ID: 8904
-# Log file: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/lab1.runs/synth_1/simon_top.vds
-# Journal file: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/lab1.runs/synth_1\vivado.jou
+# Start of session at: Wed Feb 08 11:44:35 2017
+# Process ID: 8292
+# Log file: C:/Users/idan8/Desktop/lab1/Lab1_files/lab1.runs/synth_1/simon_top.vds
+# Journal file: C:/Users/idan8/Desktop/lab1/Lab1_files/lab1.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source simon_top.tcl
 # set_param gui.test TreeTableDev
@@ -18,35 +18,35 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.0 availabl
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.1 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/1.1/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
 # set_param project.compositeFile.enableAutoGeneration 0
 # set_param synth.vivado.isSynthRun true
-# set_property webtalk.parent_dir {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/lab1.cache/wt} [current_project]
-# set_property parent.project_path {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/lab1.xpr} [current_project]
+# set_property webtalk.parent_dir C:/Users/idan8/Desktop/lab1/Lab1_files/lab1.cache/wt [current_project]
+# set_property parent.project_path C:/Users/idan8/Desktop/lab1/Lab1_files/lab1.xpr [current_project]
 # set_property default_lib xil_defaultlib [current_project]
 # set_property target_language VHDL [current_project]
 # read_vhdl -library xil_defaultlib {
-#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left8.vhd}
-#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left2.vhd}
-#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left1.vhd}
-#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/and16bit.vhd}
-#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit_triple.vhd}
-#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit.vhd}
-#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/u_bit.vhd}
-#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_right3.vhd}
-#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_right1.vhd}
-#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/16bit_flipflop.vhd}
-#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/mux2to1.vhd}
-#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd}
-#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd}
-#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd}
-#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd}
-#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd}
-#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/FIFO_8I32O.vhd}
-#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/FIFO_32I8O.vhd}
-#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd}
-#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/encrypt.vhd}
-#   {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/simon_top.vhd}
+#   C:/Users/idan8/Desktop/lab1/Lab1_files/source/shift_left8.vhd
+#   C:/Users/idan8/Desktop/lab1/Lab1_files/source/shift_left2.vhd
+#   C:/Users/idan8/Desktop/lab1/Lab1_files/source/shift_left1.vhd
+#   C:/Users/idan8/Desktop/lab1/Lab1_files/source/and16bit.vhd
+#   C:/Users/idan8/Desktop/lab1/Lab1_files/source/xor16bit_triple.vhd
+#   C:/Users/idan8/Desktop/lab1/Lab1_files/source/xor16bit.vhd
+#   C:/Users/idan8/Desktop/lab1/Lab1_files/source/u_bit.vhd
+#   C:/Users/idan8/Desktop/lab1/Lab1_files/source/shift_right3.vhd
+#   C:/Users/idan8/Desktop/lab1/Lab1_files/source/shift_right1.vhd
+#   C:/Users/idan8/Desktop/lab1/Lab1_files/source/16bit_flipflop.vhd
+#   C:/Users/idan8/Desktop/lab1/Lab1_files/source/mux2to1.vhd
+#   C:/Users/idan8/Desktop/lab1/Lab1_files/source/round_cipher.vhd
+#   C:/Users/idan8/Desktop/lab1/Lab1_files/source/key_expansion.vhd
+#   C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd
+#   C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd
+#   C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd
+#   C:/Users/idan8/Desktop/lab1/Lab1_files/source/FIFO_8I32O.vhd
+#   C:/Users/idan8/Desktop/lab1/Lab1_files/source/FIFO_32I8O.vhd
+#   C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd
+#   C:/Users/idan8/Desktop/lab1/Lab1_files/source/encrypt.vhd
+#   C:/Users/idan8/Desktop/lab1/Lab1_files/source/simon_top.vhd
 # }
-# read_xdc {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/constraint/Nexys4_Master.xdc}}
-# set_property used_in_implementation false [get_files {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/constraint/Nexys4_Master.xdc}}]
+# read_xdc C:/Users/idan8/Desktop/lab1/Lab1_files/constraint/Nexys4_Master.xdc
+# set_property used_in_implementation false [get_files C:/Users/idan8/Desktop/lab1/Lab1_files/constraint/Nexys4_Master.xdc]
 # catch { write_hwdef -file simon_top.hwdef }
 INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
 # synth_design -top simon_top -part xc7a100tcsg324-1
@@ -55,344 +55,344 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 230.648 ; gain = 73.109
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 231.355 ; gain = 73.172
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'simon_top' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/simon_top.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'simon_top' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/simon_top.vhd:16]
 	Parameter DATAINP_WIDTH bound to: 8 - type: integer 
 	Parameter DATAOUT_WIDTH bound to: 32 - type: integer 
 	Parameter FIFO_DEPTH bound to: 64 - type: integer 
-INFO: [Synth 8-3491] module 'FIFO_8I32O' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/FIFO_8I32O.vhd:5' bound to instance 'F8I32O' of component 'FIFO_8I32O' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/simon_top.vhd:157]
-INFO: [Synth 8-638] synthesizing module 'FIFO_8I32O__parameterized0' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/FIFO_8I32O.vhd:24]
+INFO: [Synth 8-3491] module 'FIFO_8I32O' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/FIFO_8I32O.vhd:5' bound to instance 'F8I32O' of component 'FIFO_8I32O' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/simon_top.vhd:157]
+INFO: [Synth 8-638] synthesizing module 'FIFO_8I32O__parameterized0' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/FIFO_8I32O.vhd:24]
 	Parameter DATAINP_WIDTH bound to: 8 - type: integer 
 	Parameter DATAOUT_WIDTH bound to: 32 - type: integer 
 	Parameter FIFO_DEPTH bound to: 64 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'FIFO_8I32O__parameterized0' (1#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/FIFO_8I32O.vhd:24]
-INFO: [Synth 8-3491] module 'encrypt' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/encrypt.vhd:5' bound to instance 'enc' of component 'encrypt' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/simon_top.vhd:160]
-INFO: [Synth 8-638] synthesizing module 'encrypt' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/encrypt.vhd:17]
-INFO: [Synth 8-3491] module 'mux2to1' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/mux2to1.vhd:4' bound to instance 'mux_left' of component 'mux2to1' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/encrypt.vhd:62]
-INFO: [Synth 8-638] synthesizing module 'mux2to1' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/mux2to1.vhd:13]
-INFO: [Synth 8-256] done synthesizing module 'mux2to1' (2#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/mux2to1.vhd:13]
-INFO: [Synth 8-3491] module 'mux2to1' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/mux2to1.vhd:4' bound to instance 'mux_right' of component 'mux2to1' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/encrypt.vhd:64]
-INFO: [Synth 8-3491] module 'reg16' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/16bit_flipflop.vhd:4' bound to instance 'reg16_left' of component 'reg16' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/encrypt.vhd:67]
-INFO: [Synth 8-638] synthesizing module 'reg16' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/16bit_flipflop.vhd:13]
-INFO: [Synth 8-256] done synthesizing module 'reg16' (3#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/16bit_flipflop.vhd:13]
-INFO: [Synth 8-3491] module 'reg16' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/16bit_flipflop.vhd:4' bound to instance 'reg16_right' of component 'reg16' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/encrypt.vhd:68]
-INFO: [Synth 8-3491] module 'round_cipher' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:9' bound to instance 'round' of component 'round_cipher' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/encrypt.vhd:72]
-INFO: [Synth 8-638] synthesizing module 'round_cipher' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:17]
-INFO: [Synth 8-3491] module 'shift_left1' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left1.vhd:4' bound to instance 'sl1' of component 'shift_left1' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:83]
-INFO: [Synth 8-638] synthesizing module 'shift_left1' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left1.vhd:11]
-INFO: [Synth 8-256] done synthesizing module 'shift_left1' (4#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left1.vhd:11]
-INFO: [Synth 8-3491] module 'shift_left8' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left8.vhd:4' bound to instance 'sl8' of component 'shift_left8' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:84]
-INFO: [Synth 8-638] synthesizing module 'shift_left8' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left8.vhd:11]
-INFO: [Synth 8-256] done synthesizing module 'shift_left8' (5#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left8.vhd:11]
-INFO: [Synth 8-3491] module 'and16bit' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/and16bit.vhd:4' bound to instance 'and_1_8' of component 'and16bit' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:85]
-INFO: [Synth 8-638] synthesizing module 'and16bit' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/and16bit.vhd:12]
-INFO: [Synth 8-256] done synthesizing module 'and16bit' (6#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/and16bit.vhd:12]
-INFO: [Synth 8-3491] module 'shift_left2' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left2.vhd:4' bound to instance 'sl2' of component 'shift_left2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:86]
-INFO: [Synth 8-638] synthesizing module 'shift_left2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left2.vhd:11]
-INFO: [Synth 8-256] done synthesizing module 'shift_left2' (7#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left2.vhd:11]
-INFO: [Synth 8-3491] module 'xor16bit' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit.vhd:4' bound to instance 'xor1' of component 'xor16bit' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:87]
-INFO: [Synth 8-638] synthesizing module 'xor16bit' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit.vhd:12]
-INFO: [Synth 8-256] done synthesizing module 'xor16bit' (8#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit.vhd:12]
-INFO: [Synth 8-3491] module 'xor16bit' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit.vhd:4' bound to instance 'xor2' of component 'xor16bit' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:88]
-INFO: [Synth 8-3491] module 'xor16bit' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit.vhd:4' bound to instance 'xor3' of component 'xor16bit' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:89]
-INFO: [Synth 8-256] done synthesizing module 'round_cipher' (9#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:17]
-INFO: [Synth 8-3491] module 'key_expansion' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:7' bound to instance 'keys' of component 'key_expansion' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/encrypt.vhd:74]
-INFO: [Synth 8-638] synthesizing module 'key_expansion' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:18]
-INFO: [Synth 8-3491] module 'u_bit' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/u_bit.vhd:5' bound to instance 'u_find' of component 'u_bit' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:99]
-INFO: [Synth 8-638] synthesizing module 'u_bit' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/u_bit.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'FIFO_8I32O__parameterized0' (1#1) [C:/Users/idan8/Desktop/lab1/Lab1_files/source/FIFO_8I32O.vhd:24]
+INFO: [Synth 8-3491] module 'encrypt' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/encrypt.vhd:5' bound to instance 'enc' of component 'encrypt' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/simon_top.vhd:160]
+INFO: [Synth 8-638] synthesizing module 'encrypt' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/encrypt.vhd:17]
+INFO: [Synth 8-3491] module 'mux2to1' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/mux2to1.vhd:4' bound to instance 'mux_left' of component 'mux2to1' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/encrypt.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'mux2to1' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/mux2to1.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'mux2to1' (2#1) [C:/Users/idan8/Desktop/lab1/Lab1_files/source/mux2to1.vhd:13]
+INFO: [Synth 8-3491] module 'mux2to1' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/mux2to1.vhd:4' bound to instance 'mux_right' of component 'mux2to1' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/encrypt.vhd:64]
+INFO: [Synth 8-3491] module 'reg16' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/16bit_flipflop.vhd:4' bound to instance 'reg16_left' of component 'reg16' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/encrypt.vhd:67]
+INFO: [Synth 8-638] synthesizing module 'reg16' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/16bit_flipflop.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'reg16' (3#1) [C:/Users/idan8/Desktop/lab1/Lab1_files/source/16bit_flipflop.vhd:13]
+INFO: [Synth 8-3491] module 'reg16' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/16bit_flipflop.vhd:4' bound to instance 'reg16_right' of component 'reg16' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/encrypt.vhd:68]
+INFO: [Synth 8-3491] module 'round_cipher' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/round_cipher.vhd:9' bound to instance 'round' of component 'round_cipher' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/encrypt.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'round_cipher' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/round_cipher.vhd:17]
+INFO: [Synth 8-3491] module 'shift_left1' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/shift_left1.vhd:4' bound to instance 'sl1' of component 'shift_left1' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/round_cipher.vhd:83]
+INFO: [Synth 8-638] synthesizing module 'shift_left1' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/shift_left1.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'shift_left1' (4#1) [C:/Users/idan8/Desktop/lab1/Lab1_files/source/shift_left1.vhd:11]
+INFO: [Synth 8-3491] module 'shift_left8' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/shift_left8.vhd:4' bound to instance 'sl8' of component 'shift_left8' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/round_cipher.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'shift_left8' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/shift_left8.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'shift_left8' (5#1) [C:/Users/idan8/Desktop/lab1/Lab1_files/source/shift_left8.vhd:11]
+INFO: [Synth 8-3491] module 'and16bit' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/and16bit.vhd:4' bound to instance 'and_1_8' of component 'and16bit' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/round_cipher.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'and16bit' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/and16bit.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'and16bit' (6#1) [C:/Users/idan8/Desktop/lab1/Lab1_files/source/and16bit.vhd:12]
+INFO: [Synth 8-3491] module 'shift_left2' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/shift_left2.vhd:4' bound to instance 'sl2' of component 'shift_left2' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/round_cipher.vhd:86]
+INFO: [Synth 8-638] synthesizing module 'shift_left2' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/shift_left2.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'shift_left2' (7#1) [C:/Users/idan8/Desktop/lab1/Lab1_files/source/shift_left2.vhd:11]
+INFO: [Synth 8-3491] module 'xor16bit' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/xor16bit.vhd:4' bound to instance 'xor1' of component 'xor16bit' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/round_cipher.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'xor16bit' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/xor16bit.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'xor16bit' (8#1) [C:/Users/idan8/Desktop/lab1/Lab1_files/source/xor16bit.vhd:12]
+INFO: [Synth 8-3491] module 'xor16bit' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/xor16bit.vhd:4' bound to instance 'xor2' of component 'xor16bit' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/round_cipher.vhd:88]
+INFO: [Synth 8-3491] module 'xor16bit' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/xor16bit.vhd:4' bound to instance 'xor3' of component 'xor16bit' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/round_cipher.vhd:89]
+INFO: [Synth 8-256] done synthesizing module 'round_cipher' (9#1) [C:/Users/idan8/Desktop/lab1/Lab1_files/source/round_cipher.vhd:17]
+INFO: [Synth 8-3491] module 'key_expansion' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/key_expansion.vhd:7' bound to instance 'keys' of component 'key_expansion' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/encrypt.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'key_expansion' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/key_expansion.vhd:18]
+INFO: [Synth 8-3491] module 'u_bit' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/u_bit.vhd:5' bound to instance 'u_find' of component 'u_bit' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/key_expansion.vhd:99]
+INFO: [Synth 8-638] synthesizing module 'u_bit' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/u_bit.vhd:17]
 	Parameter u bound to: 16'b1111111111111100 
 	Parameter u_sequence bound to: 31'b1111101000100101011000011100110 
-INFO: [Synth 8-256] done synthesizing module 'u_bit' (10#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/u_bit.vhd:17]
-INFO: [Synth 8-3491] module 'xor16bit_triple' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit_triple.vhd:5' bound to instance 'xor4' of component 'xor16bit_triple' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:100]
-INFO: [Synth 8-638] synthesizing module 'xor16bit_triple' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit_triple.vhd:14]
-INFO: [Synth 8-256] done synthesizing module 'xor16bit_triple' (11#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit_triple.vhd:14]
-INFO: [Synth 8-3491] module 'mux2to1' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/mux2to1.vhd:4' bound to instance 'mux1' of component 'mux2to1' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:101]
-INFO: [Synth 8-3491] module 'reg16' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/16bit_flipflop.vhd:4' bound to instance 'key3_reg' of component 'reg16' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:102]
-INFO: [Synth 8-3491] module 'mux2to1' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/mux2to1.vhd:4' bound to instance 'mux2' of component 'mux2to1' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:103]
-INFO: [Synth 8-3491] module 'reg16' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/16bit_flipflop.vhd:4' bound to instance 'key2_reg' of component 'reg16' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:104]
-INFO: [Synth 8-3491] module 'shift_right3' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_right3.vhd:4' bound to instance 'sr3' of component 'shift_right3' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:105]
-INFO: [Synth 8-638] synthesizing module 'shift_right3' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_right3.vhd:10]
-INFO: [Synth 8-256] done synthesizing module 'shift_right3' (12#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_right3.vhd:10]
-INFO: [Synth 8-3491] module 'mux2to1' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/mux2to1.vhd:4' bound to instance 'mux3' of component 'mux2to1' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:106]
-INFO: [Synth 8-3491] module 'reg16' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/16bit_flipflop.vhd:4' bound to instance 'key1_reg' of component 'reg16' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:107]
-INFO: [Synth 8-3491] module 'mux2to1' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/mux2to1.vhd:4' bound to instance 'mux4' of component 'mux2to1' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:108]
-INFO: [Synth 8-3491] module 'reg16' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/16bit_flipflop.vhd:4' bound to instance 'key0_reg' of component 'reg16' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:109]
-INFO: [Synth 8-3491] module 'xor16bit' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit.vhd:4' bound to instance 'xor1' of component 'xor16bit' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:110]
-INFO: [Synth 8-3491] module 'shift_right1' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_right1.vhd:4' bound to instance 'sr1' of component 'shift_right1' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:111]
-INFO: [Synth 8-638] synthesizing module 'shift_right1' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_right1.vhd:10]
-INFO: [Synth 8-256] done synthesizing module 'shift_right1' (13#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_right1.vhd:10]
-INFO: [Synth 8-3491] module 'xor16bit' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit.vhd:4' bound to instance 'xor2' of component 'xor16bit' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:112]
-INFO: [Synth 8-256] done synthesizing module 'key_expansion' (14#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:18]
-INFO: [Synth 8-256] done synthesizing module 'encrypt' (15#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/encrypt.vhd:17]
-INFO: [Synth 8-3491] module 'decrypt' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:5' bound to instance 'dec' of component 'decrypt' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/simon_top.vhd:162]
-INFO: [Synth 8-638] synthesizing module 'decrypt' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:17]
-INFO: [Synth 8-3491] module 'mux2to1' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/mux2to1.vhd:4' bound to instance 'mux_left' of component 'mux2to1' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:79]
-INFO: [Synth 8-3491] module 'mux2to1' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/mux2to1.vhd:4' bound to instance 'mux_right' of component 'mux2to1' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:81]
-INFO: [Synth 8-3491] module 'reg16' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/16bit_flipflop.vhd:4' bound to instance 'reg16_left' of component 'reg16' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:86]
-INFO: [Synth 8-3491] module 'reg16' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/16bit_flipflop.vhd:4' bound to instance 'reg16_right' of component 'reg16' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:87]
-INFO: [Synth 8-3491] module 'round_cipher' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/round_cipher.vhd:9' bound to instance 'round' of component 'round_cipher' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:92]
-INFO: [Synth 8-3491] module 'key_expansion' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/key_expansion.vhd:7' bound to instance 'keys' of component 'key_expansion' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:96]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-638] synthesizing module 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:13]
-INFO: [Synth 8-256] done synthesizing module 'reg16_en' (16#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:13]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:233]
-INFO: [Synth 8-256] done synthesizing module 'decrypt' (17#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/decrypt.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'u_bit' (10#1) [C:/Users/idan8/Desktop/lab1/Lab1_files/source/u_bit.vhd:17]
+INFO: [Synth 8-3491] module 'xor16bit_triple' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/xor16bit_triple.vhd:5' bound to instance 'xor4' of component 'xor16bit_triple' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/key_expansion.vhd:100]
+INFO: [Synth 8-638] synthesizing module 'xor16bit_triple' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/xor16bit_triple.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'xor16bit_triple' (11#1) [C:/Users/idan8/Desktop/lab1/Lab1_files/source/xor16bit_triple.vhd:14]
+INFO: [Synth 8-3491] module 'mux2to1' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/mux2to1.vhd:4' bound to instance 'mux1' of component 'mux2to1' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/key_expansion.vhd:101]
+INFO: [Synth 8-3491] module 'reg16' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/16bit_flipflop.vhd:4' bound to instance 'key3_reg' of component 'reg16' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/key_expansion.vhd:102]
+INFO: [Synth 8-3491] module 'mux2to1' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/mux2to1.vhd:4' bound to instance 'mux2' of component 'mux2to1' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/key_expansion.vhd:103]
+INFO: [Synth 8-3491] module 'reg16' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/16bit_flipflop.vhd:4' bound to instance 'key2_reg' of component 'reg16' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/key_expansion.vhd:104]
+INFO: [Synth 8-3491] module 'shift_right3' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/shift_right3.vhd:4' bound to instance 'sr3' of component 'shift_right3' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/key_expansion.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'shift_right3' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/shift_right3.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'shift_right3' (12#1) [C:/Users/idan8/Desktop/lab1/Lab1_files/source/shift_right3.vhd:10]
+INFO: [Synth 8-3491] module 'mux2to1' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/mux2to1.vhd:4' bound to instance 'mux3' of component 'mux2to1' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/key_expansion.vhd:106]
+INFO: [Synth 8-3491] module 'reg16' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/16bit_flipflop.vhd:4' bound to instance 'key1_reg' of component 'reg16' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/key_expansion.vhd:107]
+INFO: [Synth 8-3491] module 'mux2to1' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/mux2to1.vhd:4' bound to instance 'mux4' of component 'mux2to1' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/key_expansion.vhd:108]
+INFO: [Synth 8-3491] module 'reg16' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/16bit_flipflop.vhd:4' bound to instance 'key0_reg' of component 'reg16' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/key_expansion.vhd:109]
+INFO: [Synth 8-3491] module 'xor16bit' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/xor16bit.vhd:4' bound to instance 'xor1' of component 'xor16bit' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/key_expansion.vhd:110]
+INFO: [Synth 8-3491] module 'shift_right1' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/shift_right1.vhd:4' bound to instance 'sr1' of component 'shift_right1' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/key_expansion.vhd:111]
+INFO: [Synth 8-638] synthesizing module 'shift_right1' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/shift_right1.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'shift_right1' (13#1) [C:/Users/idan8/Desktop/lab1/Lab1_files/source/shift_right1.vhd:10]
+INFO: [Synth 8-3491] module 'xor16bit' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/xor16bit.vhd:4' bound to instance 'xor2' of component 'xor16bit' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/key_expansion.vhd:112]
+INFO: [Synth 8-256] done synthesizing module 'key_expansion' (14#1) [C:/Users/idan8/Desktop/lab1/Lab1_files/source/key_expansion.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'encrypt' (15#1) [C:/Users/idan8/Desktop/lab1/Lab1_files/source/encrypt.vhd:17]
+INFO: [Synth 8-3491] module 'decrypt' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:5' bound to instance 'dec' of component 'decrypt' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/simon_top.vhd:162]
+INFO: [Synth 8-638] synthesizing module 'decrypt' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:17]
+INFO: [Synth 8-3491] module 'mux2to1' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/mux2to1.vhd:4' bound to instance 'mux_left' of component 'mux2to1' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:79]
+INFO: [Synth 8-3491] module 'mux2to1' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/mux2to1.vhd:4' bound to instance 'mux_right' of component 'mux2to1' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:81]
+INFO: [Synth 8-3491] module 'reg16' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/16bit_flipflop.vhd:4' bound to instance 'reg16_left' of component 'reg16' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:86]
+INFO: [Synth 8-3491] module 'reg16' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/16bit_flipflop.vhd:4' bound to instance 'reg16_right' of component 'reg16' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:87]
+INFO: [Synth 8-3491] module 'round_cipher' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/round_cipher.vhd:9' bound to instance 'round' of component 'round_cipher' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:92]
+INFO: [Synth 8-3491] module 'key_expansion' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/key_expansion.vhd:7' bound to instance 'keys' of component 'key_expansion' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:96]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-638] synthesizing module 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'reg16_en' (16#1) [C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:13]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-3491] module 'reg16_en' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/reg16_en.vhd:4' bound to instance 'comp' of component 'reg16_en' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:233]
+INFO: [Synth 8-256] done synthesizing module 'decrypt' (17#1) [C:/Users/idan8/Desktop/lab1/Lab1_files/source/decrypt.vhd:17]
 	Parameter DATAINP_WIDTH bound to: 32 - type: integer 
 	Parameter DATAOUT_WIDTH bound to: 8 - type: integer 
 	Parameter FIFO_DEPTH bound to: 64 - type: integer 
-INFO: [Synth 8-3491] module 'FIFO_32I8O' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/FIFO_32I8O.vhd:5' bound to instance 'F32I8O' of component 'FIFO_32I8O' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/simon_top.vhd:171]
-INFO: [Synth 8-638] synthesizing module 'FIFO_32I8O__parameterized0' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/FIFO_32I8O.vhd:23]
+INFO: [Synth 8-3491] module 'FIFO_32I8O' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/FIFO_32I8O.vhd:5' bound to instance 'F32I8O' of component 'FIFO_32I8O' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/simon_top.vhd:171]
+INFO: [Synth 8-638] synthesizing module 'FIFO_32I8O__parameterized0' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/FIFO_32I8O.vhd:23]
 	Parameter DATAINP_WIDTH bound to: 32 - type: integer 
 	Parameter DATAOUT_WIDTH bound to: 8 - type: integer 
 	Parameter FIFO_DEPTH bound to: 64 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'FIFO_32I8O__parameterized0' (18#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/FIFO_32I8O.vhd:23]
-INFO: [Synth 8-3491] module 'uart_rx6' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:84' bound to instance 'rx' of component 'uart_rx6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/simon_top.vhd:175]
-INFO: [Synth 8-638] synthesizing module 'uart_rx6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:100]
+INFO: [Synth 8-256] done synthesizing module 'FIFO_32I8O__parameterized0' (18#1) [C:/Users/idan8/Desktop/lab1/Lab1_files/source/FIFO_32I8O.vhd:23]
+INFO: [Synth 8-3491] module 'uart_rx6' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:84' bound to instance 'rx' of component 'uart_rx6' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/simon_top.vhd:175]
+INFO: [Synth 8-638] synthesizing module 'uart_rx6' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:100]
 	Parameter INIT bound to: 16'b0000000000000000 
 	Parameter IS_CLK_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:203]
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:203]
 	Parameter INIT bound to: 16'b0000000000000000 
 	Parameter IS_CLK_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:203]
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:203]
 	Parameter INIT bound to: 16'b0000000000000000 
 	Parameter IS_CLK_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:203]
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:203]
 	Parameter INIT bound to: 16'b0000000000000000 
 	Parameter IS_CLK_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:203]
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:203]
 	Parameter INIT bound to: 16'b0000000000000000 
 	Parameter IS_CLK_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:203]
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:203]
 	Parameter INIT bound to: 16'b0000000000000000 
 	Parameter IS_CLK_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:203]
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:203]
 	Parameter INIT bound to: 16'b0000000000000000 
 	Parameter IS_CLK_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:203]
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:203]
 	Parameter INIT bound to: 16'b0000000000000000 
 	Parameter IS_CLK_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:203]
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:203]
 	Parameter INIT bound to: 64'b1111111100000000111111100000000011111111100000001111111100000000 
-INFO: [Synth 8-113] binding component instance 'pointer3_lut' to cell 'LUT6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:217]
+INFO: [Synth 8-113] binding component instance 'pointer3_lut' to cell 'LUT6' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:217]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'pointer3_flop' to cell 'FDR' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:227]
+INFO: [Synth 8-113] binding component instance 'pointer3_flop' to cell 'FDR' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:227]
 	Parameter INIT bound to: 64'b1111000011110000111000011110000011111000011110001111000011110000 
-INFO: [Synth 8-113] binding component instance 'pointer2_lut' to cell 'LUT6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:233]
+INFO: [Synth 8-113] binding component instance 'pointer2_lut' to cell 'LUT6' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:233]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'pointer2_flop' to cell 'FDR' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:243]
+INFO: [Synth 8-113] binding component instance 'pointer2_flop' to cell 'FDR' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:243]
 	Parameter INIT bound to: 64'b1100110010010000011000001100110010101010010100000101000010101010 
-INFO: [Synth 8-113] binding component instance 'pointer01_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:250]
+INFO: [Synth 8-113] binding component instance 'pointer01_lut' to cell 'LUT6_2' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:250]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'pointer1_flop' to cell 'FDR' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:261]
+INFO: [Synth 8-113] binding component instance 'pointer1_flop' to cell 'FDR' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:261]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'pointer0_flop' to cell 'FDR' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:267]
+INFO: [Synth 8-113] binding component instance 'pointer0_flop' to cell 'FDR' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:267]
 	Parameter INIT bound to: 64'b1111010011111100111101001111110000000100000000000000010011000000 
-INFO: [Synth 8-113] binding component instance 'data_present_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:273]
+INFO: [Synth 8-113] binding component instance 'data_present_lut' to cell 'LUT6_2' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:273]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'data_present_flop' to cell 'FDR' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:284]
+INFO: [Synth 8-113] binding component instance 'data_present_flop' to cell 'FDR' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:284]
 	Parameter INIT bound to: 64'b0000000000000001000000000000000010000000000000000000000000000000 
-INFO: [Synth 8-113] binding component instance 'full_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:290]
+INFO: [Synth 8-113] binding component instance 'full_lut' to cell 'LUT6_2' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:290]
 	Parameter INIT bound to: 64'b1100110011110000000000000000000010101010110011000000000000000000 
-INFO: [Synth 8-113] binding component instance 'sample_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:301]
+INFO: [Synth 8-113] binding component instance 'sample_lut' to cell 'LUT6_2' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:301]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'sample_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:312]
+INFO: [Synth 8-113] binding component instance 'sample_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:312]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'sample_dly_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:317]
+INFO: [Synth 8-113] binding component instance 'sample_dly_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:317]
 	Parameter INIT bound to: 64'b1100101011111111110010101111111100000000000000001100000011000000 
-INFO: [Synth 8-113] binding component instance 'stop_bit_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:322]
+INFO: [Synth 8-113] binding component instance 'stop_bit_lut' to cell 'LUT6_2' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:322]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'buffer_write_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:333]
+INFO: [Synth 8-113] binding component instance 'buffer_write_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:333]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'stop_bit_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:338]
+INFO: [Synth 8-113] binding component instance 'stop_bit_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:338]
 	Parameter INIT bound to: 64'b1111000011001100111111111111111111001100101010101111111111111111 
-INFO: [Synth 8-113] binding component instance 'data01_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:343]
+INFO: [Synth 8-113] binding component instance 'data01_lut' to cell 'LUT6_2' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:343]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'data0_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:354]
+INFO: [Synth 8-113] binding component instance 'data0_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:354]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'data1_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:359]
+INFO: [Synth 8-113] binding component instance 'data1_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:359]
 	Parameter INIT bound to: 64'b1111000011001100111111111111111111001100101010101111111111111111 
-INFO: [Synth 8-113] binding component instance 'data23_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:365]
+INFO: [Synth 8-113] binding component instance 'data23_lut' to cell 'LUT6_2' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:365]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'data2_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:376]
+INFO: [Synth 8-113] binding component instance 'data2_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:376]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'data3_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:381]
+INFO: [Synth 8-113] binding component instance 'data3_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:381]
 	Parameter INIT bound to: 64'b1111000011001100111111111111111111001100101010101111111111111111 
-INFO: [Synth 8-113] binding component instance 'data45_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:386]
+INFO: [Synth 8-113] binding component instance 'data45_lut' to cell 'LUT6_2' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:386]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'data4_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:397]
+INFO: [Synth 8-113] binding component instance 'data4_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:397]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'data5_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:402]
+INFO: [Synth 8-113] binding component instance 'data5_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:402]
 	Parameter INIT bound to: 64'b1111000011001100111111111111111111001100101010101111111111111111 
-INFO: [Synth 8-113] binding component instance 'data67_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:407]
+INFO: [Synth 8-113] binding component instance 'data67_lut' to cell 'LUT6_2' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:407]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'data6_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:418]
+INFO: [Synth 8-113] binding component instance 'data6_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:418]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'data7_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:423]
+INFO: [Synth 8-113] binding component instance 'data7_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:423]
 	Parameter INIT bound to: 64'b0010111100101111101011111010111100000000000000001111111100000000 
-INFO: [Synth 8-113] binding component instance 'run_lut' to cell 'LUT6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:428]
+INFO: [Synth 8-113] binding component instance 'run_lut' to cell 'LUT6' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:428]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'run_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:438]
+INFO: [Synth 8-113] binding component instance 'run_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:438]
 	Parameter INIT bound to: 64'b0010001000100010000000001111000000000000000000000000000000000000 
-INFO: [Synth 8-113] binding component instance 'start_bit_lut' to cell 'LUT6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:443]
+INFO: [Synth 8-113] binding component instance 'start_bit_lut' to cell 'LUT6' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:443]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'start_bit_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:453]
+INFO: [Synth 8-113] binding component instance 'start_bit_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:453]
 	Parameter INIT bound to: 64'b0110110000000000000000000000000001011010000000000000000000000000 
-INFO: [Synth 8-113] binding component instance 'div01_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:458]
+INFO: [Synth 8-113] binding component instance 'div01_lut' to cell 'LUT6_2' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:458]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'div0_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:469]
+INFO: [Synth 8-113] binding component instance 'div0_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:469]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'div1_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:474]
+INFO: [Synth 8-113] binding component instance 'div1_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:474]
 	Parameter INIT bound to: 64'b0110110011001100000000000000000001011010101010100000000000000000 
-INFO: [Synth 8-113] binding component instance 'div23_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:479]
+INFO: [Synth 8-113] binding component instance 'div23_lut' to cell 'LUT6_2' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:479]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'div2_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:490]
+INFO: [Synth 8-113] binding component instance 'div2_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:490]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'div3_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:495]
+INFO: [Synth 8-113] binding component instance 'div3_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:495]
 	Parameter INIT bound to: 64'b0000000010000000000000000000000010001000100010001000100010001000 
-INFO: [Synth 8-113] binding component instance 'sample_input_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:500]
+INFO: [Synth 8-113] binding component instance 'sample_input_lut' to cell 'LUT6_2' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:500]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'sample_input_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:511]
-INFO: [Synth 8-256] done synthesizing module 'uart_rx6' (19#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_rx6.vhd:100]
-INFO: [Synth 8-3491] module 'uart_tx6' declared at 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:84' bound to instance 'tx' of component 'uart_tx6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/simon_top.vhd:185]
-INFO: [Synth 8-638] synthesizing module 'uart_tx6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:100]
+INFO: [Synth 8-113] binding component instance 'sample_input_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:511]
+INFO: [Synth 8-256] done synthesizing module 'uart_rx6' (19#1) [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_rx6.vhd:100]
+INFO: [Synth 8-3491] module 'uart_tx6' declared at 'C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:84' bound to instance 'tx' of component 'uart_tx6' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/simon_top.vhd:185]
+INFO: [Synth 8-638] synthesizing module 'uart_tx6' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:100]
 	Parameter INIT bound to: 16'b0000000000000000 
 	Parameter IS_CLK_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:190]
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:190]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'storage_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:201]
+INFO: [Synth 8-113] binding component instance 'storage_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:201]
 	Parameter INIT bound to: 16'b0000000000000000 
 	Parameter IS_CLK_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:190]
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:190]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'storage_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:201]
+INFO: [Synth 8-113] binding component instance 'storage_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:201]
 	Parameter INIT bound to: 16'b0000000000000000 
 	Parameter IS_CLK_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:190]
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:190]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'storage_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:201]
+INFO: [Synth 8-113] binding component instance 'storage_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:201]
 	Parameter INIT bound to: 16'b0000000000000000 
 	Parameter IS_CLK_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:190]
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:190]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'storage_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:201]
+INFO: [Synth 8-113] binding component instance 'storage_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:201]
 	Parameter INIT bound to: 16'b0000000000000000 
 	Parameter IS_CLK_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:190]
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:190]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'storage_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:201]
+INFO: [Synth 8-113] binding component instance 'storage_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:201]
 	Parameter INIT bound to: 16'b0000000000000000 
 	Parameter IS_CLK_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:190]
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:190]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'storage_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:201]
+INFO: [Synth 8-113] binding component instance 'storage_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:201]
 	Parameter INIT bound to: 16'b0000000000000000 
 	Parameter IS_CLK_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:190]
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:190]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'storage_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:201]
+INFO: [Synth 8-113] binding component instance 'storage_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:201]
 	Parameter INIT bound to: 16'b0000000000000000 
 	Parameter IS_CLK_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:190]
+INFO: [Synth 8-113] binding component instance 'storage_srl' to cell 'SRL16E' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:190]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'storage_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:201]
+INFO: [Synth 8-113] binding component instance 'storage_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:201]
 	Parameter INIT bound to: 64'b1111111100000000111111100000000011111111100000001111111100000000 
-INFO: [Synth 8-113] binding component instance 'pointer3_lut' to cell 'LUT6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:209]
+INFO: [Synth 8-113] binding component instance 'pointer3_lut' to cell 'LUT6' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:209]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'pointer3_flop' to cell 'FDR' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:219]
+INFO: [Synth 8-113] binding component instance 'pointer3_flop' to cell 'FDR' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:219]
 	Parameter INIT bound to: 64'b1111000011110000111000011110000011111000011110001111000011110000 
-INFO: [Synth 8-113] binding component instance 'pointer2_lut' to cell 'LUT6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:225]
+INFO: [Synth 8-113] binding component instance 'pointer2_lut' to cell 'LUT6' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:225]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'pointer2_flop' to cell 'FDR' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:235]
+INFO: [Synth 8-113] binding component instance 'pointer2_flop' to cell 'FDR' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:235]
 	Parameter INIT bound to: 64'b1100110010010000011000001100110010101010010100000101000010101010 
-INFO: [Synth 8-113] binding component instance 'pointer01_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:242]
+INFO: [Synth 8-113] binding component instance 'pointer01_lut' to cell 'LUT6_2' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:242]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'pointer1_flop' to cell 'FDR' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:253]
+INFO: [Synth 8-113] binding component instance 'pointer1_flop' to cell 'FDR' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:253]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'pointer0_flop' to cell 'FDR' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:259]
+INFO: [Synth 8-113] binding component instance 'pointer0_flop' to cell 'FDR' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:259]
 	Parameter INIT bound to: 64'b1111010011111100111101001111110000000100000000000000010011000000 
-INFO: [Synth 8-113] binding component instance 'data_present_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:265]
+INFO: [Synth 8-113] binding component instance 'data_present_lut' to cell 'LUT6_2' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:265]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'data_present_flop' to cell 'FDR' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:276]
+INFO: [Synth 8-113] binding component instance 'data_present_flop' to cell 'FDR' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:276]
 	Parameter INIT bound to: 64'b0000000000000001000000000000000010000000000000000000000000000000 
-INFO: [Synth 8-113] binding component instance 'full_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:282]
+INFO: [Synth 8-113] binding component instance 'full_lut' to cell 'LUT6_2' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:282]
 	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
-INFO: [Synth 8-113] binding component instance 'lsb_data_lut' to cell 'LUT6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:293]
+INFO: [Synth 8-113] binding component instance 'lsb_data_lut' to cell 'LUT6' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:293]
 	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
-INFO: [Synth 8-113] binding component instance 'msb_data_lut' to cell 'LUT6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:304]
+INFO: [Synth 8-113] binding component instance 'msb_data_lut' to cell 'LUT6' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:304]
 	Parameter INIT bound to: 64'b1100111110101010110011000000111100001111111111111111111111111111 
-INFO: [Synth 8-113] binding component instance 'serial_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:314]
+INFO: [Synth 8-113] binding component instance 'serial_lut' to cell 'LUT6_2' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:314]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'serial_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:325]
+INFO: [Synth 8-113] binding component instance 'serial_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:325]
 	Parameter INIT bound to: 64'b1000010101010000000000000000000010101010101010101010101010101010 
-INFO: [Synth 8-113] binding component instance 'sm0_lut' to cell 'LUT6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:330]
+INFO: [Synth 8-113] binding component instance 'sm0_lut' to cell 'LUT6' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:330]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'sm0_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:340]
+INFO: [Synth 8-113] binding component instance 'sm0_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:340]
 	Parameter INIT bound to: 64'b0010011001100001000000000000000011001100110011001100110011001100 
-INFO: [Synth 8-113] binding component instance 'sm1_lut' to cell 'LUT6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:345]
+INFO: [Synth 8-113] binding component instance 'sm1_lut' to cell 'LUT6' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:345]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'sm1_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:355]
+INFO: [Synth 8-113] binding component instance 'sm1_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:355]
 	Parameter INIT bound to: 64'b1000100001110000000000000000000011110000111100001111000011110000 
-INFO: [Synth 8-113] binding component instance 'sm2_lut' to cell 'LUT6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:360]
+INFO: [Synth 8-113] binding component instance 'sm2_lut' to cell 'LUT6' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:360]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'sm2_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:370]
+INFO: [Synth 8-113] binding component instance 'sm2_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:370]
 	Parameter INIT bound to: 64'b1000011101000100000000000000000011111111000000001111111100000000 
-INFO: [Synth 8-113] binding component instance 'sm3_lut' to cell 'LUT6' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:375]
+INFO: [Synth 8-113] binding component instance 'sm3_lut' to cell 'LUT6' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:375]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'sm3_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:385]
+INFO: [Synth 8-113] binding component instance 'sm3_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:385]
 	Parameter INIT bound to: 64'b0110110000000000000000000000000001011010000000000000000000000000 
-INFO: [Synth 8-113] binding component instance 'div01_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:391]
+INFO: [Synth 8-113] binding component instance 'div01_lut' to cell 'LUT6_2' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:391]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'div0_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:402]
+INFO: [Synth 8-113] binding component instance 'div0_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:402]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'div1_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:407]
+INFO: [Synth 8-113] binding component instance 'div1_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:407]
 	Parameter INIT bound to: 64'b0111111110000000111111110000000001111000011110001111000011110000 
-INFO: [Synth 8-113] binding component instance 'div23_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:412]
+INFO: [Synth 8-113] binding component instance 'div23_lut' to cell 'LUT6_2' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:412]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'div2_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:423]
+INFO: [Synth 8-113] binding component instance 'div2_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:423]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'div3_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:428]
+INFO: [Synth 8-113] binding component instance 'div3_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:428]
 	Parameter INIT bound to: 64'b0000000000000000000000000000000010000000000000000000000000000000 
-INFO: [Synth 8-113] binding component instance 'next_lut' to cell 'LUT6_2' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:433]
+INFO: [Synth 8-113] binding component instance 'next_lut' to cell 'LUT6_2' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:433]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'next_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:444]
+INFO: [Synth 8-113] binding component instance 'next_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:444]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'read_flop' to cell 'FD' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:449]
-INFO: [Synth 8-256] done synthesizing module 'uart_tx6' (20#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/uart_tx6.vhd:100]
-INFO: [Synth 8-4471] merging register 'read_from_uart_rx_reg' into 'WriteEn_8IN_reg' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/simon_top.vhd:178]
-INFO: [Synth 8-256] done synthesizing module 'simon_top' (21#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/simon_top.vhd:16]
+INFO: [Synth 8-113] binding component instance 'read_flop' to cell 'FD' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:449]
+INFO: [Synth 8-256] done synthesizing module 'uart_tx6' (20#1) [C:/Users/idan8/Desktop/lab1/Lab1_files/source/uart_tx6.vhd:100]
+INFO: [Synth 8-4471] merging register 'read_from_uart_rx_reg' into 'WriteEn_8IN_reg' [C:/Users/idan8/Desktop/lab1/Lab1_files/source/simon_top.vhd:178]
+INFO: [Synth 8-256] done synthesizing module 'simon_top' (21#1) [C:/Users/idan8/Desktop/lab1/Lab1_files/source/simon_top.vhd:16]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 265.785 ; gain = 108.246
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 265.656 ; gain = 107.473
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -402,7 +402,7 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 265.785 ; gain = 108.246
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 265.656 ; gain = 107.473
 ---------------------------------------------------------------------------------
 INFO: [Netlist 29-17] Analyzing 67 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -417,8 +417,8 @@ INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/constraint/Nexys4_Master.xdc]
-Finished Parsing XDC File [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/constraint/Nexys4_Master.xdc]
+Parsing XDC File [C:/Users/idan8/Desktop/lab1/Lab1_files/constraint/Nexys4_Master.xdc]
+Finished Parsing XDC File [C:/Users/idan8/Desktop/lab1/Lab1_files/constraint/Nexys4_Master.xdc]
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
@@ -427,12 +427,590 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   FDR => FDRE: 10 instances
   LUT6_2 => LUT6_2 (LUT6, LUT5): 19 instances
 
-INFO: [Common 17-83] Releasing license: Synthesis
-215 Infos, 0 Warnings, 0 Critical Warnings and 1 Errors encountered.
-synth_design failed
-ERROR: [Designutils 20-411] The directory './.Xil/Vivado-8904-DESKTOP-S44QPG0/realtime' could not be deleted and may be locked. This directory may need to be manually deleted to continue.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 583.477 ; gain = 0.074
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 583.477 ; gain = 425.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 583.477 ; gain = 425.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 583.477 ; gain = 425.293
+---------------------------------------------------------------------------------
+ROM "u_int3" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "enc_run" won't be mapped to RAM because it is too sparse.
+ROM "init" won't be mapped to RAM because it is too sparse.
+ROM "trig_dec" won't be mapped to RAM because it is too sparse.
+ROM "en_16_x_baud" won't be mapped to RAM because it is too sparse.
+INFO: [Synth 8-3969] The signal Memory_reg_0 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_1 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_2 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_3 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_4 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_5 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_6 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_7 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_8 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_9 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_10 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_11 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_12 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_13 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_14 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_15 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_16 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_17 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_18 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_19 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_20 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_21 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_22 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_23 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_24 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_25 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_26 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_27 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_28 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_29 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_30 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal Memory_reg_31 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 583.477 ; gain = 425.293
+---------------------------------------------------------------------------------
 
-    while executing
-"synth_design -top simon_top -part xc7a100tcsg324-1"
-    (file "simon_top.tcl" line 44)
-INFO: [Common 17-206] Exiting Vivado at Wed Feb 08 11:40:46 2017...
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 3     
+	   2 Input      6 Bit       Adders := 5     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 2     
++---XORs : 
+	   2 Input     16 Bit         XORs := 10    
+	   4 Input     16 Bit         XORs := 2     
++---Registers : 
+	               32 Bit    Registers := 3     
+	               16 Bit    Registers := 45    
+	                8 Bit    Registers := 4     
+	                6 Bit    Registers := 3     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 21    
++---RAMs : 
+	               2K Bit         RAMs := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 15    
+	   2 Input     31 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 12    
+	   4 Input     16 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 9     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 35    
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 52    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module simon_top 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 14    
+Module FIFO_8I32O__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---RAMs : 
+	               2K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 16    
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 10    
+Module mux2to1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module reg16 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+Module shift_left1 
+Detailed RTL Component Info : 
+Module shift_left8 
+Detailed RTL Component Info : 
+Module and16bit 
+Detailed RTL Component Info : 
+Module shift_left2 
+Detailed RTL Component Info : 
+Module xor16bit 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     16 Bit         XORs := 1     
+Module round_cipher 
+Detailed RTL Component Info : 
+Module u_bit 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+Module xor16bit_triple 
+Detailed RTL Component Info : 
++---XORs : 
+	   4 Input     16 Bit         XORs := 1     
+Module shift_right3 
+Detailed RTL Component Info : 
+Module shift_right1 
+Detailed RTL Component Info : 
+Module key_expansion 
+Detailed RTL Component Info : 
+Module encrypt 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 4     
+Module reg16_en 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+Module decrypt 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 11    
+	   4 Input     16 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 14    
+Module FIFO_32I8O__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---RAMs : 
+	               2K Bit         RAMs := 1     
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 18    
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 10    
+Module uart_rx6 
+Detailed RTL Component Info : 
+Module uart_tx6 
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 583.477 ; gain = 425.293
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+ROM "u_find/u_int3" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "init" won't be mapped to RAM because it is too sparse.
+ROM "trig_dec" won't be mapped to RAM because it is too sparse.
+ROM "enc/keys/u_find/u_int3" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "enc/enc_run" won't be mapped to RAM because it is too sparse.
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 583.477 ; gain = 425.293
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 583.477 ; gain = 425.293
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_0 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_1 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_2 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_3 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_4 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_5 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_6 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_7 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_8 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_9 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_10 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_11 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_12 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_13 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_14 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_15 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_16 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_17 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_18 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_19 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_20 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_21 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_22 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_23 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_24 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_25 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_26 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_27 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_28 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_29 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_30 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+INFO: [Synth 8-3969] The signal F8I32O/Memory_reg_31 was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (6 address bits)* is shallow.
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM:
++------------+-------------------+------------------------+---+---+------------------------+---+---+--------------+--------+--------+---------------------+
+|Module Name | RTL Object        | PORT A (depth X width) | W | R | PORT B (depth X width) | W | R | OUT_REG      | RAMB18 | RAMB36 | Hierarchical Name   | 
++------------+-------------------+------------------------+---+---+------------------------+---+---+--------------+--------+--------+---------------------+
+|simon_top   | F8I32O/Memory_reg | 64 X 32(READ_FIRST)    | W |   | 64 X 32(WRITE_FIRST)   |   | R | Port A and B | 32     | 0      | simon_top/extram__3 | 
++------------+-------------------+------------------------+---+---+------------------------+---+---+--------------+--------+--------+---------------------+
+
+Note: The table shows RAMs generated at current stage. Some RAM generation could be reversed due to later optimizations. Multiple instantiated RAMs are reported only once. "Hierarchical Name" reflects the hierarchical modules names of the RAM and only part of it is displayed.
+Distributed RAM: 
++------------+-------------------+--------------------+----------------------+---------------+-------------------+
+|Module Name | RTL Object        | Inference Criteria | Size (depth X width) | Primitives    | Hierarchical Name | 
++------------+-------------------+--------------------+----------------------+---------------+-------------------+
+|simon_top   | F32I8O/Memory_reg | Implied            | 64 X 32              | RAM64M x 11   | simon_top/ram__1  | 
++------------+-------------------+--------------------+----------------------+---------------+-------------------+
+
+Note: The table shows RAMs generated at current stage. Some RAM generation could be reversed due to later optimizations. Multiple instantiated RAMs are reported only once. "Hierarchical Name" reflects the hierarchical modules names of the RAM and only part of it is displayed.
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 583.477 ; gain = 425.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 583.477 ; gain = 425.293
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 583.477 ; gain = 425.293
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 583.477 ; gain = 425.293
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 583.477 ; gain = 425.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 583.477 ; gain = 425.293
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_0  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_1  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_2  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_3  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_4  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_5  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_6  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_7  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_8  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_9  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_10  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_11  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_12  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_13  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_14  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_15  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_16  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_17  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_18  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_19  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_20  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_21  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_22  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_23  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_24  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_25  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_26  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_27  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_28  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_29  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_30  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \F8I32O/Memory_reg_31  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 593.469 ; gain = 435.285
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 593.469 ; gain = 435.285
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 593.469 ; gain = 435.285
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 593.469 ; gain = 435.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |    60|
+|3     |LUT1     |    77|
+|4     |LUT2     |   288|
+|5     |LUT3     |   148|
+|6     |LUT4     |    62|
+|7     |LUT5     |    93|
+|8     |LUT6     |   408|
+|9     |LUT6_2   |    19|
+|10    |MUXF7    |    32|
+|11    |RAM64M   |    11|
+|12    |RAMB18E1 |    32|
+|13    |SRL16E   |    16|
+|14    |FD       |    38|
+|15    |FDR      |    10|
+|16    |FDRE     |   910|
+|17    |FDSE     |     5|
+|18    |IBUF     |     5|
+|19    |OBUF     |     1|
++------+---------+------+
+
+Report Instance Areas: 
++------+---------------------------------+---------------------------+------+
+|      |Instance                         |Module                     |Cells |
++------+---------------------------------+---------------------------+------+
+|1     |top                              |                           |  2216|
+|2     |  F32I8O                         |FIFO_32I8O__parameterized0 |    96|
+|3     |  F8I32O                         |FIFO_8I32O__parameterized0 |   165|
+|4     |  dec                            |decrypt                    |  1509|
+|5     |    \generate_reg16_en[0].comp   |reg16_en                   |    16|
+|6     |    \generate_reg16_en[10].comp  |reg16_en_5                 |    16|
+|7     |    \generate_reg16_en[11].comp  |reg16_en_6                 |    16|
+|8     |    \generate_reg16_en[12].comp  |reg16_en_7                 |    32|
+|9     |    \generate_reg16_en[13].comp  |reg16_en_8                 |    32|
+|10    |    \generate_reg16_en[14].comp  |reg16_en_9                 |    32|
+|11    |    \generate_reg16_en[15].comp  |reg16_en_10                |    48|
+|12    |    \generate_reg16_en[16].comp  |reg16_en_11                |    16|
+|13    |    \generate_reg16_en[17].comp  |reg16_en_12                |    16|
+|14    |    \generate_reg16_en[18].comp  |reg16_en_13                |    16|
+|15    |    \generate_reg16_en[19].comp  |reg16_en_14                |    16|
+|16    |    \generate_reg16_en[1].comp   |reg16_en_15                |    16|
+|17    |    \generate_reg16_en[20].comp  |reg16_en_16                |    16|
+|18    |    \generate_reg16_en[21].comp  |reg16_en_17                |    16|
+|19    |    \generate_reg16_en[22].comp  |reg16_en_18                |    16|
+|20    |    \generate_reg16_en[23].comp  |reg16_en_19                |    16|
+|21    |    \generate_reg16_en[24].comp  |reg16_en_20                |    16|
+|22    |    \generate_reg16_en[25].comp  |reg16_en_21                |    16|
+|23    |    \generate_reg16_en[26].comp  |reg16_en_22                |    16|
+|24    |    \generate_reg16_en[27].comp  |reg16_en_23                |    16|
+|25    |    \generate_reg16_en[28].comp  |reg16_en_24                |    64|
+|26    |    \generate_reg16_en[29].comp  |reg16_en_25                |    48|
+|27    |    \generate_reg16_en[2].comp   |reg16_en_26                |    16|
+|28    |    \generate_reg16_en[30].comp  |reg16_en_27                |    32|
+|29    |    \generate_reg16_en[31].comp  |reg16_en_28                |    32|
+|30    |    \generate_reg16_en[3].comp   |reg16_en_29                |    16|
+|31    |    \generate_reg16_en[4].comp   |reg16_en_30                |    16|
+|32    |    \generate_reg16_en[5].comp   |reg16_en_31                |    16|
+|33    |    \generate_reg16_en[6].comp   |reg16_en_32                |    16|
+|34    |    \generate_reg16_en[7].comp   |reg16_en_33                |    16|
+|35    |    \generate_reg16_en[8].comp   |reg16_en_34                |    16|
+|36    |    \generate_reg16_en[9].comp   |reg16_en_35                |    16|
+|37    |    keys                         |key_expansion_36           |   130|
+|38    |      key0_reg                   |reg16_39                   |    17|
+|39    |      key1_reg                   |reg16_40                   |    32|
+|40    |      key2_reg                   |reg16_41                   |    32|
+|41    |      key3_reg                   |reg16_42                   |    49|
+|42    |    reg16_left                   |reg16_37                   |    64|
+|43    |    reg16_right                  |reg16_38                   |    16|
+|44    |  enc                            |encrypt                    |   294|
+|45    |    keys                         |key_expansion              |   130|
+|46    |      key0_reg                   |reg16_1                    |    16|
+|47    |      key1_reg                   |reg16_2                    |    47|
+|48    |      key2_reg                   |reg16_3                    |    32|
+|49    |      key3_reg                   |reg16_4                    |    35|
+|50    |    reg16_left                   |reg16                      |    48|
+|51    |    reg16_right                  |reg16_0                    |    32|
+|52    |  rx                             |uart_rx6                   |    50|
+|53    |  tx                             |uart_tx6                   |    49|
++------+---------------------------------+---------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 593.469 ; gain = 435.285
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:29 . Memory (MB): peak = 593.469 ; gain = 98.094
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 593.469 ; gain = 435.285
+INFO: [Project 1-571] Translating synthesized netlist
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_0' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_1' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_2' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_3' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_4' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_5' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_6' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_7' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_8' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_9' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_10' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_11' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_12' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_13' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_14' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_15' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_16' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_17' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_18' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_19' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_20' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_21' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_22' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_23' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_24' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_25' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_26' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_27' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_28' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_29' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_30' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'F8I32O/Memory_reg_31' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+INFO: [Netlist 29-17] Analyzing 175 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 78 instances were transformed.
+  FD => FDRE: 38 instances
+  FDR => FDRE: 10 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 19 instances
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 11 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+319 Infos, 32 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 593.469 ; gain = 416.000
+# write_checkpoint -noxdef simon_top.dcp
+# catch { report_utilization -file simon_top_utilization_synth.rpt -pb simon_top_utilization_synth.pb }
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.064 . Memory (MB): peak = 593.469 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 08 11:45:13 2017...
