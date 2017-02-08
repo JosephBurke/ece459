@@ -80,39 +80,37 @@ architecture your_code of key_expansion is
   -- Will need to declare intermediary signals here
 	signal uout0		:	std_logic_vector(15 downto 0);	-- 'C'
 	signal uout1		:	std_logic_vector(15 downto 0);	-- 'Z'
-	signal XOR4_out		:	std_logic_vector(15 downto 0);	-- XOR 'C', 'Z', key0, XOR2, "bambam"
-	signal mux1_out		:	std_logic_vector(15 downto 0); 
-	signal mux2_out		:	std_logic_vector(15 downto 0); 
-	signal mux3_out		:	std_logic_vector(15 downto 0); 
-	signal mux4_out		:	std_logic_vector(15 downto 0); 
-	signal key3			: 	std_logic_vector(15 downto 0);
-	signal key2			: 	std_logic_vector(15 downto 0);
-	signal key1			: 	std_logic_vector(15 downto 0);
-	signal key0			: 	std_logic_vector(15 downto 0);
-	signal sr3_out		:	std_logic_vector(15 downto 0);
-	signal key1_XOR_sr3	:	std_logic_vector(15 downto 0);
-	signal sr1_out		:	std_logic_vector(15 downto 0);
-	signal selector		:	std_logic;
-	signal sANDs       	:   std_logic;
-	signal xor2_out		:	std_logic_vector(15 downto 0);	-- "Wilma"
+	signal XOR4_out		:	std_logic_vector(15 downto 0);	-- output of XOR 'C', 'Z', key0, XOR2_out - "bambam"
+	signal mux1_out		:	std_logic_vector(15 downto 0);	-- output of left mux1 
+	signal mux2_out		:	std_logic_vector(15 downto 0);  -- output of 2nd from the left mux2
+	signal mux3_out		:	std_logic_vector(15 downto 0);  -- output of 3rd from the left mux3
+	signal mux4_out		:	std_logic_vector(15 downto 0);  -- output of right mux4
+	signal key3			: 	std_logic_vector(15 downto 0);	-- output of register key3
+	signal key2			: 	std_logic_vector(15 downto 0);	-- output of register key2
+	signal key1			: 	std_logic_vector(15 downto 0);	-- output of register key1
+	signal key0			: 	std_logic_vector(15 downto 0);	-- output of register key0 - "fred"
+	signal sr3_out		:	std_logic_vector(15 downto 0);	-- output of the shift_rt3
+	signal key1_XOR_sr3	:	std_logic_vector(15 downto 0);	-- output of xor01, input are key1 and sr3
+	signal sr1_out		:	std_logic_vector(15 downto 0);	-- output of the shift_rt1
+	signal xor2_out		:	std_logic_vector(15 downto 0);	-- output of xor2_out - "Wilma"
 	
 begin
 
-	u_find		:	u_bit			port map (round, uout0, uout1);
-	xor4		:	xor16bit_triple	port map (uout0, uout1, key0, xor2_out, XOR4_out); 
-	mux1		:	mux2to1			port map (sel, key_word(63 downto 48), XOR4_out, mux1_out); --gh
-	key3_reg	:	reg16			port map (clk, reset, mux1_out, key3);                  --fgfg
-	mux2		:	mux2to1			port map (sel, key_word(47 downto 32), key3, mux2_out);
-	key2_reg	:	reg16			port map (clk, reset, mux2_out, key2);
-	sr3			:	shift_right3	port map (key3, sr3_out);
-	mux3		:	mux2to1			port map (sel, key_word(31 downto 16), key2, mux3_out);
-	key1_reg	:	reg16			port map (clk, reset, mux3_out, key1);
-	mux4		:	mux2to1			port map (sel, key_word(15 downto 0), key1, mux4_out);
-	key0_reg	:	reg16			port map (clk, reset, mux4_out, key0);
-	xor1		:	xor16bit		port map (key1, sr3_out, key1_XOR_sr3);
-	sr1			:	shift_right1	port map (key1_XOR_sr3, sr1_out);
-	xor2		:	xor16bit		port map (sr1_out, key1_XOR_sr3, xor2_out);
+	u_find		:	u_bit			port map (round, uout0, uout1);								-- round -> 'C' and 'Z'
+	xor4		:	xor16bit_triple	port map (uout0, uout1, key0, xor2_out, XOR4_out); 			-- xor 4 inputs -> input of mux1
+	mux1		:	mux2to1			port map (sel, key_word(63 downto 48), XOR4_out, mux1_out); -- mux xor4_output and key -> key3 
+	key3_reg	:	reg16			port map (clk, reset, mux1_out, key3);                  	-- register 3
+	mux2		:	mux2to1			port map (sel, key_word(47 downto 32), key3, mux2_out);		-- mux key3 and key -> key2 
+	key2_reg	:	reg16			port map (clk, reset, mux2_out, key2);						-- register 2
+	sr3			:	shift_right3	port map (key3, sr3_out);									-- key3 shift right by 3 bits
+	mux3		:	mux2to1			port map (sel, key_word(31 downto 16), key2, mux3_out);		-- mux key2 and key -> key1 
+	key1_reg	:	reg16			port map (clk, reset, mux3_out, key1);						-- register 1
+	mux4		:	mux2to1			port map (sel, key_word(15 downto 0), key1, mux4_out);		-- mux key1 and key -> key0
+	key0_reg	:	reg16			port map (clk, reset, mux4_out, key0);						-- register 0
+	xor1		:	xor16bit		port map (key1, sr3_out, key1_XOR_sr3);						-- xor key1 and shift_rt3
+	sr1			:	shift_right1	port map (key1_XOR_sr3, sr1_out);							-- xor01 shift right by 1 bit
+	xor2		:	xor16bit		port map (sr1_out, key1_XOR_sr3, xor2_out);					-- xor shift_rt1 and xor01
 		
-	key_expansion <= key0;
+	key_expansion <= key0;	-- output
 
 end your_code;
