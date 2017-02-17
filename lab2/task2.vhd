@@ -1,11 +1,10 @@
 ----------------------------------------------------------------------------------
--- Students:
--- Create Date: 
--- Design Name: 
--- Module Name: 
--- Project Name: 
--- Target Devices:
--- Description: 
+-- Students: Joe Burke, Idan Kanter, Seth Rausch
+-- Create Date: 2/15/2017
+-- Design Name: 8-bit LFSR
+-- Project Name: Lab 2 - Linear Feedback Shift Registers (LFSR)
+-- Target Devices: Nexys4
+-- Description: Task 2 - Implement an 8-bit LFSR
 ----------------------------------------------------------------------------------
 
 library IEEE;
