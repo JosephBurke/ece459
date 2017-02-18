@@ -85,6 +85,7 @@ begin
 --        rst <= '1';
 --        wait for 50 ns;
 --     end process;
+     output(0) <= '0';
      
      process
      begin
@@ -94,6 +95,8 @@ begin
         rst <= '0';
         wait for 50 ns;
         rst <= '1';
+        wait for 50 ns;
+        
       end process;
 
     
