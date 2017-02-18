@@ -1,0 +1,124 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Sat Feb 18 09:46:08 2017
+# Process ID: 1884
+# Log file: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/vivado.log
+# Journal file: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.4/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 690.594 ; gain = 147.176
+remove_files -fileset constrs_1 {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab1/Lab1_files/constraint/Nexys4_Master.xdc}}
+add_files -fileset constrs_1 -norecurse {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/Nexys4_Master.xdc}}
+file mkdir C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new
+file mkdir C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new
+file mkdir C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new
+file mkdir C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new
+file mkdir C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new
+file mkdir C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new
+file mkdir C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new
+file mkdir {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new}
+close [ open {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new/task2_tb.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new/task2_tb.vhd}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'task2_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.sim/sim_1/behav'
+"xvhdl -m64 -prj task2_tb_vhdl.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new/task2_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity task2_tb
+ERROR: [VRFC 10-64] test_bench is not a label of this statement [../../../lab_2.srcs/sim_1/new/task2_tb.vhd:29]
+ERROR: [VRFC 10-91] clk is not declared [../../../lab_2.srcs/sim_1/new/task2_tb.vhd:42]
+ERROR: [VRFC 10-91] clk is not declared [../../../lab_2.srcs/sim_1/new/task2_tb.vhd:44]
+ERROR: [VRFC 10-91] d_in is not declared [../../../lab_2.srcs/sim_1/new/task2_tb.vhd:51]
+ERROR: [VRFC 10-1504] unit test_bench ignored due to previous errors [../../../lab_2.srcs/sim_1/new/task2_tb.vhd:20]
+INFO: [VRFC 10-240] VHDL file C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new/task2_tb.vhd ignored due to errors
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '' file for more information.
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/task2.vhd" into library xil_defaultlib [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/task2.vhd:1]
+[Sat Feb 18 11:01:03 2017] Launched synth_1...
+Run output will be captured here: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.runs/synth_1/runme.log
+reset_run synth_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'task2_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.sim/sim_1/behav'
+"xvhdl -m64 -prj task2_tb_vhdl.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new/task2_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity task2_tb
+ERROR: [VRFC 10-64] test_bench is not a label of this statement [../../../lab_2.srcs/sim_1/new/task2_tb.vhd:29]
+ERROR: [VRFC 10-91] clk is not declared [../../../lab_2.srcs/sim_1/new/task2_tb.vhd:42]
+ERROR: [VRFC 10-91] clk is not declared [../../../lab_2.srcs/sim_1/new/task2_tb.vhd:44]
+ERROR: [VRFC 10-91] d_in is not declared [../../../lab_2.srcs/sim_1/new/task2_tb.vhd:61]
+ERROR: [VRFC 10-1504] unit test_bench ignored due to previous errors [../../../lab_2.srcs/sim_1/new/task2_tb.vhd:20]
+INFO: [VRFC 10-240] VHDL file C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new/task2_tb.vhd ignored due to errors
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '' file for more information.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'task2_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.sim/sim_1/behav'
+"xvhdl -m64 -prj task2_tb_vhdl.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new/task2_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity task2_tb
+ERROR: [VRFC 10-64] test_bench is not a label of this statement [../../../lab_2.srcs/sim_1/new/task2_tb.vhd:29]
+ERROR: [VRFC 10-91] d_in is not declared [../../../lab_2.srcs/sim_1/new/task2_tb.vhd:61]
+ERROR: [VRFC 10-1504] unit test_bench ignored due to previous errors [../../../lab_2.srcs/sim_1/new/task2_tb.vhd:20]
+INFO: [VRFC 10-240] VHDL file C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new/task2_tb.vhd ignored due to errors
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '' file for more information.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'task2_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.sim/sim_1/behav'
+"xvhdl -m64 -prj task2_tb_vhdl.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new/task2_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity task2_tb
+ERROR: [VRFC 10-64] test_bench is not a label of this statement [../../../lab_2.srcs/sim_1/new/task2_tb.vhd:29]
+ERROR: [VRFC 10-91] d_in is not declared [../../../lab_2.srcs/sim_1/new/task2_tb.vhd:61]
+ERROR: [VRFC 10-1504] unit test_bench ignored due to previous errors [../../../lab_2.srcs/sim_1/new/task2_tb.vhd:20]
+INFO: [VRFC 10-240] VHDL file C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new/task2_tb.vhd ignored due to errors
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '' file for more information.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'task2_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.sim/sim_1/behav'
+"xvhdl -m64 -prj task2_tb_vhdl.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new/task2_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity task2_tb
+ERROR: [VRFC 10-64] test_bench is not a label of this statement [../../../lab_2.srcs/sim_1/new/task2_tb.vhd:29]
+ERROR: [VRFC 10-1504] unit test_bench ignored due to previous errors [../../../lab_2.srcs/sim_1/new/task2_tb.vhd:20]
+INFO: [VRFC 10-240] VHDL file C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new/task2_tb.vhd ignored due to errors
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '' file for more information.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Feb 18 11:15:19 2017...

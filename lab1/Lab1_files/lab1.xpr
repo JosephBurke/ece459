@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="2" Path="C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/lab1.xpr">
+<Project Version="7" Minor="2" Path="C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab1/Lab1_files/lab1.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="76b944bf1488430a9192515b29231861"/>
@@ -192,6 +192,7 @@
         <Option Name="TopModule" Val="encrypt_tb"/>
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
+        <Option Name="SimMode" Val="post-implementation"/>
         <Option Name="SrcSet" Val="sources_1"/>
       </Config>
     </FileSet>

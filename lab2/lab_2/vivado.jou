@@ -1,0 +1,100 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Sat Feb 18 11:24:17 2017
+# Process ID: 420
+# Log file: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/vivado.log
+# Journal file: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.xpr}
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new/task2_tb.vhd}}
+add_files -norecurse {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new/task2_tb.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top eight_bit [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+remove_files {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/task2.vhd}}
+set_property target_constrs_file {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/Nexys4_Master.xdc} [current_fileset -constrset]
+update_compile_order -fileset sources_1
+set_property source_mgmt_mode DisplayOnly [current_project]
+add_files -norecurse {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/eight_bit.vhd}}
+launch_simulation
+remove_files {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new/task2_tb.vhd}}
+launch_simulation
+add_files -norecurse {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new/task2_tb.vhd}}
+launch_simulation
+remove_files {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/eight_bit.vhd}}
+file mkdir C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sources_1/new
+file mkdir C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sources_1/new
+file mkdir C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sources_1/new
+file mkdir C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sources_1/new
+file mkdir C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sources_1/new
+file mkdir C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sources_1/new
+file mkdir {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sources_1/new}
+close [ open {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sources_1/new/eight_bit.vhd} w ]
+add_files {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sources_1/new/eight_bit.vhd}}
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+run all
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation

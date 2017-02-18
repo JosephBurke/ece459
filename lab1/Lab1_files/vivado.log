@@ -2,22 +2,19 @@
 # Vivado v2014.4 (64-bit)
 # SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
 # IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
-# Start of session at: Wed Feb 08 14:39:11 2017
-# Process ID: 9436
-# Log file: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/vivado.log
-# Journal file: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files\vivado.jou
+# Start of session at: Sat Feb 18 11:02:05 2017
+# Process ID: 10948
+# Log file: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab1/Lab1_files/vivado.log
+# Journal file: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab1/Lab1_files\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/lab1.xpr}
-INFO: [Project 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
-Current project path is 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files'
-INFO: [Project 1-313] Project file moved from 'C:/Users/idan8/Desktop/lab1/Lab1_files' since last save.
+open_project {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab1/Lab1_files/lab1.xpr}
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.4/data/ip'.
-open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:10 . Memory (MB): peak = 699.531 ; gain = 162.703
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:09 . Memory (MB): peak = 722.375 ; gain = 183.082
 update_compile_order -fileset sources_1
 launch_simulation
 INFO: [USF-XSim-27] Simulation object is 'sim_1'
@@ -25,41 +22,41 @@ INFO: [USF-XSim-37] Inspecting design source files for 'encrypt_tb' in fileset '
 INFO: [USF-XSim-97] Finding global include files...
 INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
 INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/lab1.sim/sim_1/behav'
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab1/Lab1_files/lab1.sim/sim_1/behav'
 "xvhdl -m64 -prj encrypt_tb_vhdl.prj"
 Determining compilation order of HDL files.
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab1/Lab1_files/source/shift_left8.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity shift_left8
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab1/Lab1_files/source/shift_left2.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity shift_left2
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_left1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab1/Lab1_files/source/shift_left1.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity shift_left1
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/and16bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab1/Lab1_files/source/and16bit.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity and16bit
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit_triple.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab1/Lab1_files/source/xor16bit_triple.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity xor16bit_triple
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/xor16bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab1/Lab1_files/source/xor16bit.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity xor16bit
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/u_bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab1/Lab1_files/source/u_bit.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity u_bit
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_right3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab1/Lab1_files/source/shift_right3.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity shift_right3
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/shift_right1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab1/Lab1_files/source/shift_right1.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity shift_right1
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/16bit_flipflop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab1/Lab1_files/source/16bit_flipflop.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity reg16
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/mux2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab1/Lab1_files/source/mux2to1.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity mux2to1
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/ROUND_CIPHER.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab1/Lab1_files/source/ROUND_CIPHER.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity round_cipher
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/KEY_EXPANSION.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab1/Lab1_files/source/KEY_EXPANSION.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity key_expansion
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/encrypt.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab1/Lab1_files/source/encrypt.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity encrypt
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/source/encrypt_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab1/Lab1_files/source/encrypt_tb.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity encrypt_tb
 INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/lab1.sim/sim_1/behav'
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab1/Lab1_files/lab1.sim/sim_1/behav'
 Vivado Simulator 2014.4
 Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
 Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 76b944bf1488430a9192515b29231861 --debug typical --relax -L xil_defaultlib -L secureip --snapshot encrypt_tb_behav xil_defaultlib.encrypt_tb -log elaborate.log 
@@ -101,17 +98,16 @@ Built simulation snapshot encrypt_tb_behav
     ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
 
 source C:/Users/idan8/Google -notrace
-couldn't read file "C:/Users/idan8/Google": no such file or directory
-INFO: [Common 17-206] Exiting Webtalk at Wed Feb 08 14:39:54 2017...
-run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 705.598 ; gain = 0.000
+couldn't read file "C:/Users/idan8/Google": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sat Feb 18 11:15:30 2017...
 INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files/lab1.sim/sim_1/behav'
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab1/Lab1_files/lab1.sim/sim_1/behav'
 INFO: [USF-XSim-98] *** Running xsim
    with args "encrypt_tb_behav -key {Behavioral:sim_1:Functional:encrypt_tb} -tclbatch {encrypt_tb.tcl} -log {simulate.log}"
 INFO: [USF-XSim-8] Loading simulator feature
 Vivado Simulator 2014.4
 Time resolution is 1 ps
-open_wave_config {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/lab1/ece459/lab1/Lab1_files\encrypt_tb_behav.wcfg}
+open_wave_config {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab1/Lab1_files\encrypt_tb_behav.wcfg}
 source encrypt_tb.tcl
 # set curr_wave [current_wave_config]
 # if { [string length $curr_wave] == 0 } {
@@ -125,8 +121,8 @@ source encrypt_tb.tcl
 # run 1000ns
 INFO: [USF-XSim-96] XSim completed. Design snapshot 'encrypt_tb_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 714.719 ; gain = 9.121
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 738.441 ; gain = 6.488
 close_sim
 INFO: [Simtcl 6-16] Simulation closed
 exit
-INFO: [Common 17-206] Exiting Vivado at Wed Feb 08 14:59:13 2017...
+INFO: [Common 17-206] Exiting Vivado at Sat Feb 18 12:17:38 2017...
