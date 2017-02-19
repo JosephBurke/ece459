@@ -17,44 +17,40 @@ entity eight_bit is
   
     port (
 	   clk, reset, ctrl    :	IN std_logic;
-	   din				   :	IN std_logic_vector(7 DOWNTO 0);
-	   q				   :	INOUT std_logic_vector(7 DOWNTO 0)
+	   din				   :	IN std_logic_vector(7 DOWNTO 0);      -- switches
+	   q				   :	INOUT std_logic_vector(7 DOWNTO 0)    -- output 
 	);
 end eight_bit;
 
 ARCHITECTURE Behavioral OF eight_bit IS
-
- --SIGNAL		q_signal   : std_logic_vector(7 DOWNTO 0);
- --SIGNAL		reset	   : std_logic;
- --CONSTANT	din  	: std_logic_vector(7 DOWNTO 0):= (OTHERS  => '1');
-    SIGNAL SEL  :   std_logic := '0';
-
-BEGIN
-
- lfsr	:	PROCESS(clk,ctrl,reset)
-
     
-    BEGIN
+    SIGNAL SEL  :   std_logic := '0';       -- Selector
 
-        IF(reset = '0') THEN 
-            q <= "00000000";
-        ELSIF(ctrl = '1') THEN
-            q <= din;                          
-        ELSIF (clk = '1') THEN 
-            --IF (SEL = '0') THEN
-             --   q(0) <= '1';
-              --  SEL <= '1';
-            --ELSE
-                q(0) <= q(7);                      
-                q(1) <= q(0);                                
-                q(2) <= q(1) XOR q(7);             
-                q(3) <= q(2) XOR q(7);             
-                q(4) <= q(3) XOR q(7);
-                q(7 DOWNTO 5) <= q(6 DOWNTO 4);
-            --END IF;
-        
-        END IF;
+  BEGIN
+
+    lfsr	:	PROCESS(clk,reset)      
     
-    END PROCESS lfsr;
+        BEGIN
+            IF(reset = '1') THEN 
+                q <= "00000000";
+                SEL <= '0';
+            ELSIF(ctrl = '1') THEN
+                q <= din;                          
+            ELSIF (clk'event AND clk = '1') THEN
+                IF (SEL = '0') THEN
+                    q(0) <= '1';
+                    SEL <= '1';
+                ELSE
+                    q(0) <= q(7);                      
+                    q(1) <= q(0);                                
+                    q(2) <= q(1) XOR q(7);             
+                    q(3) <= q(2) XOR q(7);             
+                    q(4) <= q(3) XOR q(7);
+                    q(7 DOWNTO 5) <= q(6 DOWNTO 4);
+                END IF;
+            
+            END IF;
     
-    END Behavioral;
+        END PROCESS lfsr;
+    
+END Behavioral;

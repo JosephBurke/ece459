@@ -1,0 +1,141 @@
+/*
+
+Vivado v2014.4 (64-bit)
+SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+Process ID: 7000
+
+Current time: 	2/18/17 11:55:57 PM
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1600x900
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.8.0_05 64-bit
+Java home: 	C:/Xilinx/Vivado/2014.4/tps/win64/jre
+
+User name: 	idan8
+User directory: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2
+User country: 	US
+User language: 	en
+User locale: 	en_US
+Vivado preferences path: C:/Users/idan8/AppData/Roaming/Xilinx/Vivado/2014.4/vivado.ini
+Vivado layouts directory: C:/Users/idan8/AppData/Roaming/Xilinx/Vivado/2014.4/layouts/application
+
+GUI allocated memory:	194 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 426 MB
+
+*/
+
+// TclEventType: START_GUI
+// HColorUtils.generateUniqueColorPalette (num colors: 55) elapsed time: 0.8s
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// cm:N (ch:JFrame):  Open Project : addNotify
+// Tcl Message: open_project {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.xpr} 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 42 MB (+41480kb) [00:00:05]
+// [Engine Memory]: 363 MB (+228747kb) [00:00:05]
+// [GUI Memory]: 49 MB (+7200kb) [00:00:05]
+// [Engine Memory]: 389 MB (+27672kb) [00:00:05]
+// [Engine Memory]: 411 MB (+22630kb) [00:00:05]
+// [Engine Memory]: 424 MB (+14561kb) [00:00:06]
+// [Engine Memory]: 426 MB (+1466kb) [00:00:07]
+// Tcl Message: open_project {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/idan8/Desktop/lab2/lab_2' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.4/data/ip'. 
+// [Engine Memory]: 426 MB (+32kb) [00:00:07]
+// [Engine Memory]: 428 MB (+1679kb) [00:00:07]
+// [Engine Memory]: 428 MB (+364kb) [00:00:08]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 428 MB (+565kb) [00:00:08]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 432 MB. GUI used memory: 31 MB. Current time: 2/18/17 11:55:58 PM
+// [Engine Memory]: 432 MB (+3571kb) [00:00:08]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 433 MB (+1527kb) [00:00:08]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 434 MB (+671kb) [00:00:09]
+// [Engine Memory]: 434 MB (+532kb) [00:00:09]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 50 MB (+793kb) [00:00:09]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 51 MB (+1080kb) [00:00:09]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 51 MB (+549kb) [00:00:09]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 52 MB (+1085kb) [00:00:09]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 53 MB (+549kb) [00:00:09]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 53 MB (+549kb) [00:00:09]
+// [GUI Memory]: 54 MB (+1080kb) [00:00:09]
+// [GUI Memory]: 55 MB (+549kb) [00:00:09]
+// [GUI Memory]: 55 MB (+531kb) [00:00:09]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 56 MB (+1080kb) [00:00:09]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 57 MB (+549kb) [00:00:09]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// Project name: lab_2; location: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:06 . Memory (MB): peak = 707.156 ; gain = 166.094 
+// [Engine Memory]: 436 MB (+1187kb) [00:00:09]
+dismissDialog("Open Project"); // cm:N (ch:JFrame)
+// [Engine Memory]: 445 MB (+10141kb) [00:00:10]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 446 MB (+770kb) [00:00:10]
+// [Engine Memory]: 448 MB (+2363kb) [00:00:13]
+// [Engine Memory]: 451 MB (+3174kb) [00:00:14]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, task2_tb - test_bench (task2_tb.vhd)]", 1, true); // u:k (I:JPanel, ch:JFrame) - Node
+// [Engine Memory]: 453 MB (+1466kb) [00:00:14]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, task2_tb - test_bench (task2_tb.vhd), test - eight_bit - Behavioral (eight_bit.vhd)]", 2, false); // u:k (I:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, task2_tb - test_bench (task2_tb.vhd), test - eight_bit - Behavioral (eight_bit.vhd)]", 2, false, false, false, false, false, true); // u:k (I:JPanel, ch:JFrame) - Double Click
+selectCodeEditor("eight_bit.vhd", 496, 163); // bi:J (JPanel:JComponent, ch:JFrame)
+// [GUI Memory]: 57 MB (+703kb) [00:00:26]
+// [GUI Memory]: 59 MB (+1256kb) [00:00:31]
+// Elapsed time: 18 seconds
+selectCodeEditor("eight_bit.vhd", 495, 208); // bi:J (JPanel:JComponent, ch:JFrame)
+// Elapsed time: 26 seconds
+selectCodeEditor("eight_bit.vhd", 488, 214); // bi:J (JPanel:JComponent, ch:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("eight_bit.vhd", 508, 238); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("eight_bit.vhd", 489, 235); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("eight_bit.vhd", 483, 232); // bi:J (JPanel:JComponent, ch:JFrame)
+// [Engine Memory]: 454 MB (+1294kb) [00:01:52]
+// Elapsed time: 27 seconds
+selectCodeEditor("eight_bit.vhd", 35, 269); // bi:J (JPanel:JComponent, ch:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("eight_bit.vhd", 29, 77); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("eight_bit.vhd", 37, 350); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("eight_bit.vhd", 24, 347); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("eight_bit.vhd", 24, 385); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("eight_bit.vhd", 32, 380); // bi:J (JPanel:JComponent, ch:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("eight_bit.vhd", 26, 124); // bi:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 60 MB (+1011kb) [00:02:48]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 67 MB (+8074kb) [00:02:48]
+typeControlKey((HResource) null, "eight_bit.vhd", 'c'); // bi:J (JPanel:JComponent, ch:JFrame)

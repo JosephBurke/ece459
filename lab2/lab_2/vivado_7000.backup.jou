@@ -1,0 +1,100 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Sat Feb 18 15:45:47 2017
+# Process ID: 8368
+# Log file: C:/Users/idan8/Desktop/lab2/lab_2/vivado.log
+# Journal file: C:/Users/idan8/Desktop/lab2/lab_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/idan8/Desktop/lab2/lab_2/lab_2.xpr
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+set_property PROGRAM.FILE {C:close_sim
+n8/Desktop/lab2/lab_2/lab_2.runs/impl_1/eight_bit.bit} [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {C:/Users/idan8/Desktop/lab2/lab_2/lab_2.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {C:/Users/idan8/Desktop/lab2/lab_2/lab_2.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/idan8/Desktop/lab2/lab_2/lab_2.runs/impl_1/eight_bit.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_run impl_1
+set_property PROBES.FILE {C:/Users/idan8/Desktop/lab2/lab_2/lab_2.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/idan8/Desktop/lab2/lab_2/lab_2.runs/impl_1/eight_bit.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {C:/Users/idan8/Desktop/lab2/lab_2/lab_2.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/idan8/Desktop/lab2/lab_2/lab_2.runs/impl_1/eight_bit.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {C:/Users/idan8/Desktop/lab2/lab_2/lab_2.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/idan8/Desktop/lab2/lab_2/lab_2.runs/impl_1/eight_bit.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {C:/Users/idan8/Desktop/lab2/lab_2/lab_2.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/idan8/Desktop/lab2/lab_2/lab_2.runs/impl_1/eight_bit.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {C:/Users/idan8/Desktop/lab2/lab_2/lab_2.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/idan8/Desktop/lab2/lab_2/lab_2.runs/impl_1/eight_bit.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {C:/Users/idan8/Desktop/lab2/lab_2/lab_2.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/idan8/Desktop/lab2/lab_2/lab_2.runs/impl_1/eight_bit.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+set_property -name {xsim.simulate.runtime} -value {10000ns} -objects [current_fileset -simset]
+close_sim
+launch_simulation
+refresh_design
+launch_simulation
+launch_simulation
+launch_simulation
+source task2_tb.tcl
+set_property PROBES.FILE {C:/Users/idan8/Desktop/lab2/lab_2/lab_2.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/idan8/Desktop/lab2/lab_2/lab_2.runs/impl_1/eight_bit.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim

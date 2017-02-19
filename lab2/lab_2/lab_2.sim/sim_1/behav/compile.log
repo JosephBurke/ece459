@@ -1,4 +1,4 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new/task2_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Desktop/lab2/lab_2/lab_2.srcs/sim_1/new/task2_tb.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity task2_tb
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sources_1/new/eight_bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/idan8/Desktop/lab2/lab_2/lab_2.srcs/sources_1/new/eight_bit.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity eight_bit

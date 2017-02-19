@@ -1,0 +1,264 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Sat Feb 18 11:24:17 2017
+# Process ID: 420
+# Log file: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/vivado.log
+# Journal file: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.xpr}
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new/task2_tb.vhd}}
+add_files -norecurse {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new/task2_tb.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top eight_bit [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+remove_files {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/task2.vhd}}
+set_property target_constrs_file {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/Nexys4_Master.xdc} [current_fileset -constrset]
+update_compile_order -fileset sources_1
+set_property source_mgmt_mode DisplayOnly [current_project]
+add_files -norecurse {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/eight_bit.vhd}}
+launch_simulation
+remove_files {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new/task2_tb.vhd}}
+launch_simulation
+add_files -norecurse {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sim_1/new/task2_tb.vhd}}
+launch_simulation
+remove_files {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/eight_bit.vhd}}
+file mkdir C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sources_1/new
+file mkdir C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sources_1/new
+file mkdir C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sources_1/new
+file mkdir C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sources_1/new
+file mkdir C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sources_1/new
+file mkdir C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sources_1/new
+file mkdir {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sources_1/new}
+close [ open {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sources_1/new/eight_bit.vhd} w ]
+add_files {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.srcs/sources_1/new/eight_bit.vhd}}
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+run all
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+close_sim
+launch_simulation
+source task2_tb.tcl
+synth_design -rtl -name rtl_1
+set_property package_pin "" [get_ports [list  {din[7]}]]
+place_ports {din[0]} U9
+place_ports {din[1]} U8
+place_ports {din[2]} R7
+set_property package_pin "" [get_ports [list  {din[4]}]]
+place_ports {din[3]} R6
+place_ports {din[4]} R5
+place_ports {din[5]} U7
+set_property package_pin "" [get_ports [list  {din[7]}]]
+set_property package_pin "" [get_ports [list  {din[6]}]]
+place_ports {din[5]} V7
+place_ports {din[6]} V6
+place_ports {din[7]} V5
+place_ports ctrl P4
+place_ports clk C12
+place_ports reset F15
+set_property package_pin "" [get_ports [list  {q[0]}]]
+place_ports clk E16
+place_ports {q[0]} T8
+place_ports {q[1]} V9
+set_property package_pin "" [get_ports [list  {q[3]}]]
+place_ports {q[2]} R8
+place_ports {q[3]} T6
+place_ports {q[4]} T5
+place_ports {q[5]} T4
+set_property package_pin "" [get_ports [list  {q[7]}]]
+place_ports {q[6]} U7
+place_ports {q[7]} U6
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list {q[7]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {q[6]}]]
+set_property IOSTANDARD {} [get_ports [list {q[5]}]]
+set_property IOSTANDARD {} [get_ports [list {q[4]}]]
+set_property IOSTANDARD {} [get_ports [list {q[3]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {q[5]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {q[4]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {q[3]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {q[2]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {q[1]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {q[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list ctrl]]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+remove_files -fileset constrs_1 {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/Nexys4_Master.xdc}}
+refresh_design
+set_property IOSTANDARD LVCMOS33 [get_ports [list {din[7]} {din[6]} {din[5]} {din[4]} {din[3]} {din[2]} {din[1]} {din[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {q[7]} {q[6]} {q[5]} {q[4]} {q[3]} {q[2]} {q[1]} {q[0]}]]
+place_ports {din[0]} U9
+place_ports {din[1]} R7
+set_property package_pin "" [get_ports [list  {din[3]}]]
+set_property package_pin "" [get_ports [list  {din[2]}]]
+place_ports {din[1]} U8
+place_ports {din[2]} R7
+place_ports {din[3]} R6
+set_property package_pin "" [get_ports [list  {din[4]}]]
+place_ports {din[4]} R5
+place_ports {din[5]} V7
+place_ports {din[6]} V6
+place_ports {din[7]} V5
+place_ports ctrl P4
+place_ports clk E16
+place_ports reset F15
+place_ports {q[0]} T8
+place_ports {q[1]} V9
+place_ports {q[2]} R8
+place_ports {q[3]} T6
+place_ports {q[4]} T5
+set_property package_pin "" [get_ports [list  {q[6]}]]
+place_ports {q[5]} T4
+set_property package_pin "" [get_ports [list  {q[7]}]]
+place_ports {q[6]} U7
+place_ports {q[7]} U6
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property IOSTANDARD {} [get_ports [list {q[0]}]]
+set_property IOSTANDARD {} [get_ports [list {q[0]}]]
+set_property IOSTANDARD {} [get_ports [list {q[1]}]]
+set_property IOSTANDARD {} [get_ports [list {q[2]}]]
+set_property IOSTANDARD {} [get_ports [list {q[3]}]]
+set_property IOSTANDARD {} [get_ports [list {q[4]}]]
+set_property IOSTANDARD {} [get_ports [list {q[5]}]]
+set_property IOSTANDARD {} [get_ports [list {q[6]}]]
+set_property IOSTANDARD {} [get_ports [list {q[7]}]]
+set_property IOSTANDARD {} [get_ports [list {din[7]} {din[6]} {din[5]} {din[4]} {din[3]} {din[2]} {din[1]} {din[0]}]]
+set_property IOSTANDARD {} [get_ports [list {din[7]}]]
+set_property IOSTANDARD {} [get_ports [list {din[6]}]]
+set_property IOSTANDARD {} [get_ports [list {din[7]}]]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list {din[7]} {din[6]} {din[5]} {din[4]} {din[3]} {din[2]} {din[1]} {din[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {q[7]} {q[6]} {q[5]} {q[4]} {q[3]} {q[2]} {q[1]} {q[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list ctrl]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list reset]]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+add_files -fileset constrs_1 -norecurse {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/Nexys4_Master.xdc}}
+refresh_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+refresh_design
+refresh_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+refresh_design
+close_sim
+launch_simulation
+launch_simulation
+source task2_tb.tcl
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+set_property PROGRAM.FILE {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.runs/impl_1/eight_bit.bit} [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.runs/impl_1/eight_bit.bit} [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.runs/impl_1/eight_bit.bit} [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.runs/impl_1/eight_bit.bit} [lindex [get_hw_devices] 0]
+close_sim

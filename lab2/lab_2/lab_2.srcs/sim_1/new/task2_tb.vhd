@@ -45,58 +45,60 @@ begin
         wait for 50 ns;
     end process;
     
-   -- process
-    --begin
-     -- rst <= '0';
-      --wait for 50 ns;
-      --rst <= '1';
-      --wait for 50 ns;
-      --rst <= '0';
-      --wait;
-    --end process;
-    
 --    process
 --    begin
---        control <= '1';
---        wait for 50 ns;
---        d_in <= "00000000";
---        wait for 50 ns;
---        rst <= '0';
---        wait for 50 ns;
---        rst <= '1';
---        wait for 50 ns;
---        d_in <= "10000000";
---        wait for 50 ns;
---        d_in <= "01000000";
---        wait for 50 ns;
---        d_in <= "00100000";
---        wait for 50 ns;
---        d_in <= "00010000";
---        wait for 50 ns;
---        d_in <= "00001000";
---        wait for 50 ns;
---        d_in <= "00000100";
---        wait for 50 ns;
---        d_in <= "00000010";
---        wait for 50 ns;
---        d_in <= "00000001";
---        rst <= '0';
---        wait for 50 ns;
---        rst <= '1';
---        wait for 50 ns;
---     end process;
-     output(0) <= '0';
-     
-     process
-     begin
+--      rst <= '0';
+--      wait for 50 ns;
+--      rst <= '1';
+--      wait for 50 ns;
+--      rst <= '0';
+--      wait;
+--    end process;
+    
+    process
+    begin
+        control <= '1';
         wait for 50 ns;
-        control <= '0';
+        d_in <= "00000000";
         wait for 50 ns;
         rst <= '0';
         wait for 50 ns;
         rst <= '1';
         wait for 50 ns;
+        d_in <= "10000000";
+        wait for 50 ns;
+        d_in <= "01000000";
+        wait for 50 ns;
+        d_in <= "00100000";
+        wait for 50 ns;
+        d_in <= "00010000";
+        wait for 50 ns;
+        d_in <= "00001000";
+        wait for 50 ns;
+        d_in <= "00000100";
+        wait for 50 ns;
+        d_in <= "00000010";
+        wait for 50 ns;
+        d_in <= "00000001";
+        wait for 50 ns;
+        control <= '0';
+        wait for 50 ns;
+        rst <= '1';
+        wait for 50 ns;
+        rst <= '0';
+        wait for 50 ns;
+        output(0) <= '1';
+        wait for 50 ns;
         
+--        for i in 0 to 20 loop
+--            wait for 50 ns;
+--            clock <= '0';
+--            wait for 50 ns;
+--            clock <= '1';
+--            wait for 50 ns;
+--        end loop;
+
+        wait for 3000 ns;
       end process;
 
     
