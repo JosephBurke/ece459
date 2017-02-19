@@ -33,7 +33,6 @@ architecture test_bench of task2_tb is
     signal control  :   std_logic;
     signal d_in     :   std_logic_vector(7 DOWNTO 0);
     signal output   :   std_logic_vector(7 DOWNTO 0);
-
     
 begin
     
@@ -61,9 +60,9 @@ begin
         wait for 50 ns;
         d_in <= "00000000";
         wait for 50 ns;
-        rst <= '0';
-        wait for 50 ns;
         rst <= '1';
+        wait for 50 ns;
+        rst <= '0';
         wait for 50 ns;
         d_in <= "10000000";
         wait for 50 ns;
@@ -81,24 +80,14 @@ begin
         wait for 50 ns;
         d_in <= "00000001";
         wait for 50 ns;
+
         control <= '0';
         wait for 50 ns;
         rst <= '1';
         wait for 50 ns;
         rst <= '0';
-        wait for 50 ns;
-        output(0) <= '1';
-        wait for 50 ns;
-        
---        for i in 0 to 20 loop
---            wait for 50 ns;
---            clock <= '0';
---            wait for 50 ns;
---            clock <= '1';
---            wait for 50 ns;
---        end loop;
+        wait for 5000 ns;
 
-        wait for 3000 ns;
       end process;
 
     
