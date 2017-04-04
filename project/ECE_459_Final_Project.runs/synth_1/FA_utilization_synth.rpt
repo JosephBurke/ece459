@@ -1,7 +1,7 @@
 Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
-| Date         : Sun Apr 02 10:33:13 2017
+| Date         : Mon Apr 03 11:21:52 2017
 | Host         : DESKTOP-S44QPG0 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file FA_utilization_synth.rpt -pb FA_utilization_synth.pb
 | Design       : FA

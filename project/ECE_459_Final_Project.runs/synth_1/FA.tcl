@@ -15,6 +15,9 @@ set_property parent.project_path {C:/Users/idan8/Google Drive/UTK/Spring 2017/EC
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 read_vhdl -library xil_defaultlib {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.srcs/sources_1/new/FA.vhd}}
+read_xdc {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.srcs/constrs_1/new/FA.xdc}}
+set_property used_in_implementation false [get_files {{C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.srcs/constrs_1/new/FA.xdc}}]
+
 catch { write_hwdef -file FA.hwdef }
 synth_design -top FA -part xc7a100tcsg324-1
 write_checkpoint -noxdef FA.dcp
