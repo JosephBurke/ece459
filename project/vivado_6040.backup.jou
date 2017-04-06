@@ -2,12 +2,25 @@
 # Vivado v2014.4 (64-bit)
 # SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
 # IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
-# Start of session at: Wed Apr 05 10:23:39 2017
-# Process ID: 6040
+# Start of session at: Mon Apr 03 11:09:17 2017
+# Process ID: 11892
 # Log file: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/vivado.log
 # Journal file: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.xpr}
-synth_design -rtl -name rtl_1
-write_schematic C:/Users/idan8/Desktop/schematic.sch
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+open_run impl_1
+write_edif
+write_edif-help
+write_edif -help
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+write_edif -help
+write_edif c:\
+close_design
+open_run synth_1 -name synth_1
+write_edif C:/Users/idan8/Desktop/ECE_459_Final_Project.edn
+write_verilog C:/Users/idan8/Desktop/ECE_459_Final_Project.v

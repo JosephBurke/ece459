@@ -2,8 +2,8 @@
 # Vivado v2014.4 (64-bit)
 # SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
 # IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
-# Start of session at: Mon Apr 03 11:09:17 2017
-# Process ID: 11892
+# Start of session at: Wed Apr 05 10:23:39 2017
+# Process ID: 6040
 # Log file: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/vivado.log
 # Journal file: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project\vivado.jou
 #-----------------------------------------------------------
@@ -14,13 +14,31 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.4/data/ip'.
-open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:08 . Memory (MB): peak = 698.355 ; gain = 159.234
-update_compile_order -fileset sources_1
-update_compile_order -fileset sim_1
-open_run impl_1
-INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
-INFO: [Project 1-479] Netlist was created with Vivado 2014.4
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:08 . Memory (MB): peak = 697.777 ; gain = 160.980
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: FA
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:52 ; elapsed = 00:00:49 . Memory (MB): peak = 716.211 ; gain = 558.676
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'FA' [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.srcs/sources_1/new/FA.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'FA' (1#1) [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.srcs/sources_1/new/FA.vhd:28]
+WARNING: [Synth 8-3331] design FA has unconnected port clk
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:53 ; elapsed = 00:00:50 . Memory (MB): peak = 735.707 ; gain = 578.172
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:53 ; elapsed = 00:00:50 . Memory (MB): peak = 735.707 ; gain = 578.172
+---------------------------------------------------------------------------------
 Loading clock regions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
 Loading clock buffers from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
 Loading clock placement rules from C:/Xilinx/Vivado/2014.4/data/parts/xilinx/artix7/ClockPlacerRules.xml
@@ -29,267 +47,21 @@ Loading package from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7
 Loading io standards from C:/Xilinx/Vivado/2014.4/data\./parts/xilinx/artix7/IOStandards.xml
 Loading device configuration modes from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/ConfigModes.xml
 INFO: [Project 1-570] Preparing netlist for logic optimization
-Parsing XDC File [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/.Xil/Vivado-11892-DESKTOP-S44QPG0/dcp/FA.xdc]
-Finished Parsing XDC File [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/.Xil/Vivado-11892-DESKTOP-S44QPG0/dcp/FA.xdc]
-Reading XDEF placement.
-Reading placer database...
-Reading XDEF routing.
-Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.138 . Memory (MB): peak = 921.172 ; gain = 1.211
-Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
-Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.138 . Memory (MB): peak = 921.172 ; gain = 1.215
-INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
 
-open_run: Time (s): cpu = 00:00:23 ; elapsed = 00:00:16 . Memory (MB): peak = 1030.086 ; gain = 331.730
-write_edif
-ERROR: [Common 17-163] Missing value for option 'file', please type 'write_edif -help' for usage info.
-write_edif-help
-invalid command name "write_edif-help"
-write_edif -help
-write_edif
-
-Description: 
-Export the current netlist as an EDIF file
-
-Syntax: 
-write_edif  [-pblocks <args>] [-cell <arg>] [-force] [-security_mode <arg>]  
-            [-quiet] [-verbose] <file>                                       
-
-Returns: 
-the name of the output file or directory
-
-Usage: 
-  Name              Description                                                
-  -----------------------------------------------------------------------------
-  [-pblocks]        Export netlist for these pblocks (not valid with -cell)    
-  [-cell]           Export netlist for this cell (not valid with -pblocks)     
-  [-force]          Overwrite existing file                                    
-  [-security_mode]  If set to 'all', and some of design needs encryption then  
-                    whole of design will be written to a single encrypted      
-                    file                                                       
-                    Default: multifile                                         
-  [-quiet]          Ignore command errors                                      
-  [-verbose]        Suspend message limits during command execution            
-  <file>            Output file (directory with -pblocks or -cell)             
-
-Categories: 
-FileIO
-
-Description:
-
-  Writes the current netlist as an EDIF file, or outputs the contents of
-  specific Pblocks or hierarchical cells as EDIF netlist files.
-
-  In the case of either the -pblocks or -cell option being used, this
-  argument specifies a directory name where the EDIF netlist files for each
-  Pblock or cell will be written. The EDIF netlist file will be named after
-  the Pblock or cell. If the directory specified does not exist, the tool
-  will return an error.
-
-
-Arguments:
-
-  -pblocks <arg> - (Optional) Instructs the tool to output the contents of
-  the specified Pblocks as EDIF netlist files. The contents of each Pblock
-  will be written to a separate EDIF file.
-
-  -cell <arg> - (Optional) Instructs the tool to output the contents of the
-  specified hierarchical cell as EDIF netlist files. Only one cell can be
-  specified for output.
-
-  Note: The -pblocks and -cell options are mutually exclusive. Although they
-  are optional arguments, only one may be specified at one time.
-
-  -force - (Optional) Overwrite the EDIF file if it already exists.
-
-  -security_mode [ multifile | all ] - (Optional) Write a multiple EDIF files
-  when encrypted IP is found in the design, or write a single file.
-
-   *  multifile - This is the default setting. By default the command writes
-      out the full design netlist to the specified file. However, if the
-      design contains secured IP, it creates an encrypted file containing the
-      contents of the secured module. This will result in the output of
-      multiple EDIF files, containing secured and unsecured elements of the
-      design.
-
-   *  all - Write both encrypted and unencrypted cells to a single specified
-      file.
-
-  -quiet - (Optional) Execute the command quietly, returning no messages from
-  the command. The command also returns TCL_OK regardless of any errors
-  encountered during execution.
-
-  Note: Any errors encountered on the command-line, while launching the
-  command, will be returned. Only errors occurring inside the command will be
-  trapped.
-
-  -verbose - (Optional) Temporarily override any message limits and return
-  all messages from this command.
-
-  Note: Message limits can be defined with the set_msg_config command.
-
-  <file> - (Required) The filename of the EDIF file to write. The default
-  file extension for an EDIF netlist is .edn. If the -pblocks or -cell
-  options are used, the name specified here refers to a directory rather than
-  a single file.
-
-  Note: If the path is not specified as part of the file name, the file will
-  be written into the current working directory, or the directory from which
-  the tool was launched.
-
-
-Examples:
-
-  The following example writes an EDIF netlist file for the whole design to
-  the specified file name:
-
-    write_edif C:/Data/edifOut.edn
-
-  The following example outputs an EDIF netlist for all Pblocks in the
-  design. The files will be written to the specified directory.
-
-    write_edif -pblocks [get_pblocks] C:/Data/FPGA_Design/
-
-
-See Also:
-
-   *  read_edif
-
-reset_run synth_1
-launch_runs synth_1
-INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.srcs/sources_1/new/FA.vhd" into library xil_defaultlib [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.srcs/sources_1/new/FA.vhd:1]
-[Mon Apr 03 11:21:16 2017] Launched synth_1...
-Run output will be captured here: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.runs/synth_1/runme.log
-write_edif -help
-write_edif
-
-Description: 
-Export the current netlist as an EDIF file
-
-Syntax: 
-write_edif  [-pblocks <args>] [-cell <arg>] [-force] [-security_mode <arg>]  
-            [-quiet] [-verbose] <file>                                       
-
-Returns: 
-the name of the output file or directory
-
-Usage: 
-  Name              Description                                                
-  -----------------------------------------------------------------------------
-  [-pblocks]        Export netlist for these pblocks (not valid with -cell)    
-  [-cell]           Export netlist for this cell (not valid with -pblocks)     
-  [-force]          Overwrite existing file                                    
-  [-security_mode]  If set to 'all', and some of design needs encryption then  
-                    whole of design will be written to a single encrypted      
-                    file                                                       
-                    Default: multifile                                         
-  [-quiet]          Ignore command errors                                      
-  [-verbose]        Suspend message limits during command execution            
-  <file>            Output file (directory with -pblocks or -cell)             
-
-Categories: 
-FileIO
-
-Description:
-
-  Writes the current netlist as an EDIF file, or outputs the contents of
-  specific Pblocks or hierarchical cells as EDIF netlist files.
-
-  In the case of either the -pblocks or -cell option being used, this
-  argument specifies a directory name where the EDIF netlist files for each
-  Pblock or cell will be written. The EDIF netlist file will be named after
-  the Pblock or cell. If the directory specified does not exist, the tool
-  will return an error.
-
-
-Arguments:
-
-  -pblocks <arg> - (Optional) Instructs the tool to output the contents of
-  the specified Pblocks as EDIF netlist files. The contents of each Pblock
-  will be written to a separate EDIF file.
-
-  -cell <arg> - (Optional) Instructs the tool to output the contents of the
-  specified hierarchical cell as EDIF netlist files. Only one cell can be
-  specified for output.
-
-  Note: The -pblocks and -cell options are mutually exclusive. Although they
-  are optional arguments, only one may be specified at one time.
-
-  -force - (Optional) Overwrite the EDIF file if it already exists.
-
-  -security_mode [ multifile | all ] - (Optional) Write a multiple EDIF files
-  when encrypted IP is found in the design, or write a single file.
-
-   *  multifile - This is the default setting. By default the command writes
-      out the full design netlist to the specified file. However, if the
-      design contains secured IP, it creates an encrypted file containing the
-      contents of the secured module. This will result in the output of
-      multiple EDIF files, containing secured and unsecured elements of the
-      design.
-
-   *  all - Write both encrypted and unencrypted cells to a single specified
-      file.
-
-  -quiet - (Optional) Execute the command quietly, returning no messages from
-  the command. The command also returns TCL_OK regardless of any errors
-  encountered during execution.
-
-  Note: Any errors encountered on the command-line, while launching the
-  command, will be returned. Only errors occurring inside the command will be
-  trapped.
-
-  -verbose - (Optional) Temporarily override any message limits and return
-  all messages from this command.
-
-  Note: Message limits can be defined with the set_msg_config command.
-
-  <file> - (Required) The filename of the EDIF file to write. The default
-  file extension for an EDIF netlist is .edn. If the -pblocks or -cell
-  options are used, the name specified here refers to a directory rather than
-  a single file.
-
-  Note: If the path is not specified as part of the file name, the file will
-  be written into the current working directory, or the directory from which
-  the tool was launched.
-
-
-Examples:
-
-  The following example writes an EDIF netlist file for the whole design to
-  the specified file name:
-
-    write_edif C:/Data/edifOut.edn
-
-  The following example outputs an EDIF netlist for all Pblocks in the
-  design. The files will be written to the specified directory.
-
-    write_edif -pblocks [get_pblocks] C:/Data/FPGA_Design/
-
-
-See Also:
-
-   *  read_edif
-
-write_edif c:\
-ERROR: [Common 17-38] Directory in which file .edf is to be written is not writable [c:]
-close_design
-open_run synth_1 -name synth_1
-Design is defaulting to impl run constrset: constrs_1
-Design is defaulting to synth run part: xc7a100tcsg324-1
-INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
-INFO: [Project 1-479] Netlist was created with Vivado 2014.4
-INFO: [Project 1-570] Preparing netlist for logic optimization
-INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
-INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+Processing XDC Constraints
+Initializing timing engine
 Parsing XDC File [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.srcs/constrs_1/new/FA.xdc]
 Finished Parsing XDC File [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.srcs/constrs_1/new/FA.xdc]
-INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Completed Processing XDC Constraints
+
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-open_run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 1476.941 ; gain = 0.000
-write_edif C:/Users/idan8/Desktop/ECE_459_Final_Project.edn
-write_verilog C:/Users/idan8/Desktop/ECE_459_Final_Project.v
+RTL Elaboration Complete:  : Time (s): cpu = 00:01:14 ; elapsed = 00:01:04 . Memory (MB): peak = 1081.359 ; gain = 923.824
+4 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:18 . Memory (MB): peak = 1081.359 ; gain = 379.945
+write_schematic C:/Users/idan8/Desktop/schematic.sch
+C:/Users/idan8/Desktop/schematic.sch
 exit
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 05 11:54:53 2017...
