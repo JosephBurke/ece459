@@ -2,12 +2,38 @@
 # Vivado v2014.4 (64-bit)
 # SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
 # IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
-# Start of session at: Wed Apr 05 10:23:39 2017
-# Process ID: 6040
+# Start of session at: Thu Apr 06 18:50:33 2017
+# Process ID: 9412
 # Log file: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/vivado.log
 # Journal file: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.xpr}
-synth_design -rtl -name rtl_1
-write_schematic C:/Users/idan8/Desktop/schematic.sch
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
