@@ -1,0 +1,1 @@
+Take average of Hamming Distance for certain combination of Key Gates to determine best combination. Do this by finding HD for each Key (except the correct key) and taking the average.
