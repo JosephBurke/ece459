@@ -14,13 +14,31 @@ int main() {
     vector<int> Cout;
     Cout.resize( 8, 0 );
 
-    vector<int> correct_out;
-    vector<int> encrypt_out;
+    vector<int> correct_out;  // will need to push the correct output once, no need to do it more than that
+                                // all the S's first then all the Cout
+    vector<int> encrypt_out; // will need to remove this one
+
+    /* Holds output for each case (not implement yet)*/
+    vector<int> encrypt0;
+    vector<int> encrypt1;
+    vector<int> encrypt2;
+    vector<int> encrypt3;
+    vector<int> encrypt4;
+    vector<int> encrypt5;
+    vector<int> encrypt6;
+    vector<int> encrypt7;
+
+    /* Will hold all the results for the different HD */
+    vector<double> results;
+    results.resize(8,0);
+
+    /* Holds the computation */
     vector<int> HD;
     HD.resize( 16, 0 );
 
-    double Hamming_distance = 0;
+    double Hamming_distance = 0;    //final result
 
+    /* All these push statements will be removed */
     encrypt_out.push_back( 1 );
     encrypt_out.push_back( 0 );
     encrypt_out.push_back( 0 );
@@ -38,6 +56,7 @@ int main() {
     encrypt_out.push_back( 1 );
     encrypt_out.push_back( 0 );
 
+    /* Nodes */
     int eight;
     int nine;
     int ten;
@@ -46,7 +65,7 @@ int main() {
     int thirteen;
     int fifteen;
 
-
+    /* All the possible inputs to the circuit */
     A.push_back( 0 );
     A.push_back( 0 );
     A.push_back( 0 );
@@ -99,19 +118,18 @@ int main() {
     for ( int l = 0; l < Cout.size(); ++l ) {
         correct_out.push_back( Cout[l] );
     }
+    //-----------------------------------------
 
+    /* Calculated HD */
     for ( int m = 0; m < correct_out.size(); ++m ) {
         HD[m] = correct_out[m] - encrypt_out[m];
-
     }
-
 
     for ( int n = 0; n < HD.size(); ++n ) {
-        if ( HD[n] == -1 ) HD[n] = 1;
-        Hamming_distance += HD[n];
-
+        if ( HD[n] == -1 ) HD[n] = 1;       // if 0 - 1 = -1, change to 1
+        Hamming_distance += HD[n];          // add up the numbers
     }
-    printf( "%f%%\n", ( Hamming_distance / 16 ) * 100 );
+    printf( "%f%%\n", ( Hamming_distance / 16 ) * 100 );    // average
 
     return 0;
 
