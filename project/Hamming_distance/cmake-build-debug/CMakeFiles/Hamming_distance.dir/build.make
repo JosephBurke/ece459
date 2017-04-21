@@ -56,38 +56,38 @@ include CMakeFiles/Hamming_distance.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Hamming_distance.dir/flags.make
 
-CMakeFiles/Hamming_distance.dir/HD.cpp.obj: CMakeFiles/Hamming_distance.dir/flags.make
-CMakeFiles/Hamming_distance.dir/HD.cpp.obj: ../HD.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\ece459\project\Hamming_distance\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Hamming_distance.dir/HD.cpp.obj"
-	C:\TDM-GCC-64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Hamming_distance.dir\HD.cpp.obj -c "C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\ece459\project\Hamming_distance\HD.cpp"
+CMakeFiles/Hamming_distance.dir/scratch.cpp.obj: CMakeFiles/Hamming_distance.dir/flags.make
+CMakeFiles/Hamming_distance.dir/scratch.cpp.obj: ../scratch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\ece459\project\Hamming_distance\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Hamming_distance.dir/scratch.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Hamming_distance.dir\scratch.cpp.obj -c "C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\ece459\project\Hamming_distance\scratch.cpp"
 
-CMakeFiles/Hamming_distance.dir/HD.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hamming_distance.dir/HD.cpp.i"
-	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\ece459\project\Hamming_distance\HD.cpp" > CMakeFiles\Hamming_distance.dir\HD.cpp.i
+CMakeFiles/Hamming_distance.dir/scratch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hamming_distance.dir/scratch.cpp.i"
+	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\ece459\project\Hamming_distance\scratch.cpp" > CMakeFiles\Hamming_distance.dir\scratch.cpp.i
 
-CMakeFiles/Hamming_distance.dir/HD.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hamming_distance.dir/HD.cpp.s"
-	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\ece459\project\Hamming_distance\HD.cpp" -o CMakeFiles\Hamming_distance.dir\HD.cpp.s
+CMakeFiles/Hamming_distance.dir/scratch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hamming_distance.dir/scratch.cpp.s"
+	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\ece459\project\Hamming_distance\scratch.cpp" -o CMakeFiles\Hamming_distance.dir\scratch.cpp.s
 
-CMakeFiles/Hamming_distance.dir/HD.cpp.obj.requires:
+CMakeFiles/Hamming_distance.dir/scratch.cpp.obj.requires:
 
-.PHONY : CMakeFiles/Hamming_distance.dir/HD.cpp.obj.requires
+.PHONY : CMakeFiles/Hamming_distance.dir/scratch.cpp.obj.requires
 
-CMakeFiles/Hamming_distance.dir/HD.cpp.obj.provides: CMakeFiles/Hamming_distance.dir/HD.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\Hamming_distance.dir\build.make CMakeFiles/Hamming_distance.dir/HD.cpp.obj.provides.build
-.PHONY : CMakeFiles/Hamming_distance.dir/HD.cpp.obj.provides
+CMakeFiles/Hamming_distance.dir/scratch.cpp.obj.provides: CMakeFiles/Hamming_distance.dir/scratch.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Hamming_distance.dir\build.make CMakeFiles/Hamming_distance.dir/scratch.cpp.obj.provides.build
+.PHONY : CMakeFiles/Hamming_distance.dir/scratch.cpp.obj.provides
 
-CMakeFiles/Hamming_distance.dir/HD.cpp.obj.provides.build: CMakeFiles/Hamming_distance.dir/HD.cpp.obj
+CMakeFiles/Hamming_distance.dir/scratch.cpp.obj.provides.build: CMakeFiles/Hamming_distance.dir/scratch.cpp.obj
 
 
 # Object files for target Hamming_distance
 Hamming_distance_OBJECTS = \
-"CMakeFiles/Hamming_distance.dir/HD.cpp.obj"
+"CMakeFiles/Hamming_distance.dir/scratch.cpp.obj"
 
 # External object files for target Hamming_distance
 Hamming_distance_EXTERNAL_OBJECTS =
 
-Hamming_distance.exe: CMakeFiles/Hamming_distance.dir/HD.cpp.obj
+Hamming_distance.exe: CMakeFiles/Hamming_distance.dir/scratch.cpp.obj
 Hamming_distance.exe: CMakeFiles/Hamming_distance.dir/build.make
 Hamming_distance.exe: CMakeFiles/Hamming_distance.dir/linklibs.rsp
 Hamming_distance.exe: CMakeFiles/Hamming_distance.dir/objects1.rsp
@@ -100,7 +100,7 @@ CMakeFiles/Hamming_distance.dir/build: Hamming_distance.exe
 
 .PHONY : CMakeFiles/Hamming_distance.dir/build
 
-CMakeFiles/Hamming_distance.dir/requires: CMakeFiles/Hamming_distance.dir/HD.cpp.obj.requires
+CMakeFiles/Hamming_distance.dir/requires: CMakeFiles/Hamming_distance.dir/scratch.cpp.obj.requires
 
 .PHONY : CMakeFiles/Hamming_distance.dir/requires
 

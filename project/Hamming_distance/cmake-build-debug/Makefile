@@ -122,32 +122,32 @@ Hamming_distance/fast:
 	$(MAKE) -f CMakeFiles\Hamming_distance.dir\build.make CMakeFiles/Hamming_distance.dir/build
 .PHONY : Hamming_distance/fast
 
-HD.obj: HD.cpp.obj
+scratch.obj: scratch.cpp.obj
 
-.PHONY : HD.obj
+.PHONY : scratch.obj
 
 # target to build an object file
-HD.cpp.obj:
-	$(MAKE) -f CMakeFiles\Hamming_distance.dir\build.make CMakeFiles/Hamming_distance.dir/HD.cpp.obj
-.PHONY : HD.cpp.obj
+scratch.cpp.obj:
+	$(MAKE) -f CMakeFiles\Hamming_distance.dir\build.make CMakeFiles/Hamming_distance.dir/scratch.cpp.obj
+.PHONY : scratch.cpp.obj
 
-HD.i: HD.cpp.i
+scratch.i: scratch.cpp.i
 
-.PHONY : HD.i
+.PHONY : scratch.i
 
 # target to preprocess a source file
-HD.cpp.i:
-	$(MAKE) -f CMakeFiles\Hamming_distance.dir\build.make CMakeFiles/Hamming_distance.dir/HD.cpp.i
-.PHONY : HD.cpp.i
+scratch.cpp.i:
+	$(MAKE) -f CMakeFiles\Hamming_distance.dir\build.make CMakeFiles/Hamming_distance.dir/scratch.cpp.i
+.PHONY : scratch.cpp.i
 
-HD.s: HD.cpp.s
+scratch.s: scratch.cpp.s
 
-.PHONY : HD.s
+.PHONY : scratch.s
 
 # target to generate assembly for a file
-HD.cpp.s:
-	$(MAKE) -f CMakeFiles\Hamming_distance.dir\build.make CMakeFiles/Hamming_distance.dir/HD.cpp.s
-.PHONY : HD.cpp.s
+scratch.cpp.s:
+	$(MAKE) -f CMakeFiles\Hamming_distance.dir\build.make CMakeFiles/Hamming_distance.dir/scratch.cpp.s
+.PHONY : scratch.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... Hamming_distance
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... HD.obj
-	@echo ... HD.i
-	@echo ... HD.s
+	@echo ... scratch.obj
+	@echo ... scratch.i
+	@echo ... scratch.s
 .PHONY : help
 
 

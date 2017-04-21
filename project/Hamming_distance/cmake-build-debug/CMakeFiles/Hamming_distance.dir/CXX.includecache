@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/Hamming_distance/HD.cpp
+C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/Hamming_distance/scratch.cpp
 iostream
 -
-vector
+stdio.h
 -
 

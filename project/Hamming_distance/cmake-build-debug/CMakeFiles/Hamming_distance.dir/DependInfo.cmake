@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/Hamming_distance/HD.cpp" "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/Hamming_distance/cmake-build-debug/CMakeFiles/Hamming_distance.dir/HD.cpp.obj"
+  "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/Hamming_distance/scratch.cpp" "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/Hamming_distance/cmake-build-debug/CMakeFiles/Hamming_distance.dir/scratch.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

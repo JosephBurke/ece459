@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/Hamming_distance/HD.cpp">
+		<Unit filename="C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/Hamming_distance/scratch.cpp">
 			<Option target="Hamming_distance"/>
 		</Unit>
 		<Unit filename="C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/Hamming_distance/CMakeLists.txt">

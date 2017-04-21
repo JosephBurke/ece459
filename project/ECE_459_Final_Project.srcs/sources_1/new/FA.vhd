@@ -1,4 +1,4 @@
-----------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
 -- Students: Joe Burke, Idan Kanter, Seth Rausch
 -- Create Date: 4/02/2017
 -- Design Name: Full Adder
@@ -6,7 +6,7 @@
 -- Target Devices: Nexys4
 -- Description: First circuit is a Full Adder.
 --             * Implementing a fault analysis technique to understand where to insert key gates.
-----------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
 
 
 library IEEE;
@@ -20,9 +20,9 @@ entity FA is
         B       : IN std_logic;
         Cin     : IN std_logic;
         
-        SW13    : IN std_logic; -- key input 1 (correct = 0)
+        SW15    : IN std_logic; -- key input 1 (correct = 0)
         SW14    : IN std_logic; -- key input 2 (correct = 1)
-        SW15    : IN std_logic; -- key input 3 (correct = 1)
+        
         
         S       : OUT std_logic;
         Cout    : OUT std_logic
@@ -34,22 +34,22 @@ architecture Behavioral of FA is
     signal XOR1, XOR2, AND1, AND2, OR1  : std_logic;
     
     signal key_1    : std_logic;    -- xor gate for key 1
-    signal key_2    : std_logic;    -- mux for key 2
-    signal key_3    : std_logic;    -- xor gate for key 3
+    signal key_2    : std_logic;    -- xnor gate for key 2
+ 
     signal zero     : std_logic := '0';
 
 begin
 
     XOR1 <= A XOR B;    
     AND1 <= A AND B;      
-    XOR2 <= key_1 XOR key_3;    
+    XOR2 <= key_1 XOR Cin;    
     AND2 <= Cin AND key_1;      
     OR1  <= AND1 OR key_2;      
     
     ----- Encryption --------
-    key_1 <= XOR1 XOR SW13;                                     -- key gate 1
-    key_2 <= (NOT (SW14) AND zero) OR ( SW14 AND AND2 );        -- key mux 2
-    key_3 <= NOT(SW15) XOR Cin;                                 -- key gate 3
+    key_1 <= XOR1 XOR SW15;         -- key gate 1
+    key_2 <= AND1 XNOR SW14;        -- key gate 2
+    
     
     
     

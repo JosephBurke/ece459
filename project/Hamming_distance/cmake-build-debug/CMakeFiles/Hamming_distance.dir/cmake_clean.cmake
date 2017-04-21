@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Hamming_distance.dir/HD.cpp.obj"
+  "CMakeFiles/Hamming_distance.dir/scratch.cpp.obj"
   "Hamming_distance.pdb"
   "Hamming_distance.exe"
   "Hamming_distance.exe.manifest"
