@@ -1,0 +1,4 @@
+"C:\Program Files\JetBrains\CLion 2017.1.1\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\idan8\Google Drive\UTK\Spring 2017\ECE 459\labs\ece459\project\Hamming_distance"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/Hamming_distance/cmake-build-debug

@@ -1,0 +1,72 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Thu Apr 06 18:50:33 2017
+# Process ID: 9412
+# Log file: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/vivado.log
+# Journal file: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.4/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 663.324 ; gain = 138.523
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Thu Apr 06 19:08:52 2017] Launched synth_1...
+Run output will be captured here: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.runs/synth_1/runme.log
+[Thu Apr 06 19:08:52 2017] Launched impl_1...
+Run output will be captured here: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1
+[Thu Apr 06 19:10:11 2017] Launched synth_1...
+Run output will be captured here: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.runs/synth_1/runme.log
+[Thu Apr 06 19:10:11 2017] Launched impl_1...
+Run output will be captured here: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Thu Apr 06 19:15:14 2017] Launched synth_1...
+Run output will be captured here: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.runs/synth_1/runme.log
+[Thu Apr 06 19:15:14 2017] Launched impl_1...
+Run output will be captured here: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Thu Apr 06 19:19:38 2017] Launched synth_1...
+Run output will be captured here: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.runs/synth_1/runme.log
+[Thu Apr 06 19:19:38 2017] Launched impl_1...
+Run output will be captured here: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Thu Apr 06 19:24:25 2017] Launched synth_1...
+Run output will be captured here: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.runs/synth_1/runme.log
+[Thu Apr 06 19:24:25 2017] Launched impl_1...
+Run output will be captured here: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Thu Apr 06 19:26:26 2017] Launched synth_1...
+Run output will be captured here: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.runs/synth_1/runme.log
+[Thu Apr 06 19:26:26 2017] Launched impl_1...
+Run output will be captured here: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.srcs/sources_1/new/FA.vhd" into library xil_defaultlib [C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.srcs/sources_1/new/FA.vhd:1]
+[Thu Apr 06 19:27:33 2017] Launched synth_1...
+Run output will be captured here: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.runs/synth_1/runme.log
+launch_runs impl_1
+[Thu Apr 06 19:28:19 2017] Launched impl_1...
+Run output will be captured here: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Thu Apr 06 19:30:04 2017] Launched impl_1...
+Run output will be captured here: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Thu Apr 06 19:35:28 2017] Launched synth_1...
+Run output will be captured here: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.runs/synth_1/runme.log
+[Thu Apr 06 19:35:28 2017] Launched impl_1...
+Run output will be captured here: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/ECE_459_Final_Project.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 06 20:37:55 2017...

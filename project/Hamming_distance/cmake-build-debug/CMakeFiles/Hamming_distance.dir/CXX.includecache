@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/project/Hamming_distance/HD.cpp
+iostream
+-
+vector
+-
+
