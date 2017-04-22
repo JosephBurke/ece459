@@ -12,7 +12,7 @@ def full_adder(A,B,C_in,K1,K2,K3,Sum_out,C_out):
     @always_comb
     def logic():
         Sig1=  (A ^ B ^ K1)
-        Sig2 = not ((Sig1 & C_in) ^ K2)
+        Sig2 = ((Sig1 & C_in) ^ K2)
         Sig3 = (A & B) ^ K3 
         Sum_out.next = Sig1 ^ C_in
         C_out.next = Sig2 | Sig3
@@ -29,6 +29,8 @@ def testBench_FA(flag=0):
     def simulate():
         ham = {}
         hamSum = 0
+        bitC = 0
+        bitW = 0
         for p in range(8):
             keyset = format(p,"03b")
             
@@ -80,7 +82,9 @@ def testBench_FA(flag=0):
             t = []
 
             for i in range(len(before)):
+                bitC += 1
                 if before[i] != after[i]:
+                    bitW += 1
                     t.append(before[i])
 
             hamming = len(t)/len(before)
@@ -97,6 +101,7 @@ def testBench_FA(flag=0):
         print('Best Key Combination: {}'.format(key))
         print('Hamming Distance: {}'.format(smallest))
         print('Hamming Average = {}'.format(hamSum/7))
+        print('Wrong {} / {}'.format(bitW,bitC))
 
     return FA_inst,simulate
 

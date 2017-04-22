@@ -14,7 +14,7 @@ def full_adder(A,B,A1,B1,C_in,K1,K2,K3,K4,K5,K6,Sum_out,Sum1_out,C_out):
         Sig2 = (Sig1 & C_in) ^ K2
         Sig3 = (A & B) ^ K3 
         Sum_out.next = Sig1 ^ C_in
-        C = Sig2 or Sig3
+        C = (Sig2 or Sig3)
         Sig4 = A1 ^ B1 ^ K4
         Sig5 = (Sig4 & C) ^ K5
         Sig6 = (A1 & B1) ^ K6
@@ -33,6 +33,8 @@ def testBench_FA(flag=0):
     def simulate():
         ham = {}
         hamSum = 0
+        bitC = 0
+        bitW = 0
         for p in range(64):
             keyset = format(p,"06b")
             
@@ -103,11 +105,14 @@ def testBench_FA(flag=0):
             t = []
 
             for i in range(len(before)):
+                bitC += 1
                 if before[i] != after[i]:
+                    bitW += 1
                     t.append(before[i])
 
             hamming = len(t)/len(before)
-            print('Key1: {} Key2: {} Key3: {}'.format(keyset[0],keyset[1],keyset[2]))
+            for index, key in enumerate(keyset):
+                print('Key{}: {}'.format(index,key))
             print('Hamming = {}'.format(hamming))
             ham[hamming] = p
             hamSum += hamming
@@ -120,6 +125,7 @@ def testBench_FA(flag=0):
         print('Best Key Combination: {}'.format(key))
         print('Hamming Distance: {}'.format(smallest))
         print('Ave Hamming = {}'.format(hamSum/63))
+        print('Correct {} / {}'.format(bitC,bitW))
 
     return FA_inst,simulate
 
