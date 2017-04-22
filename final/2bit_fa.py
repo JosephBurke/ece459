@@ -11,10 +11,10 @@ def full_adder(A,B,C_in,K1,K2,K3,Sum_out,C_out):
     @always_comb
     def logic():
         Sig1= A ^ B ^ K1
-        Sig2 = (Sig1 & C_in) ^ K2
+        Sig2 = ((Sig1 & C_in) ^ K2)
         Sig3 = (A & B) ^ K3 
         Sum_out.next = Sig1 ^ C_in
-        C_out.next = Sig2 or Sig3
+        C_out.next = Sig2 | Sig3
     return logic
 
 from random import randrange
@@ -27,6 +27,7 @@ def testBench_FA(flag=0):
     @instance
     def simulate():
         ham = {}
+        hamSum = 0
         for p in range(8):
             keyset = format(p,"03b")
             
@@ -85,6 +86,7 @@ def testBench_FA(flag=0):
             print('Key1: {} Key2: {} Key3: {}'.format(keyset[0],keyset[1],keyset[2]))
             print('Hamming = {}'.format(hamming))
             ham[hamming] = p
+            hamSum += hamming
 
         print('Hamming List:')
         print(ham)
@@ -93,6 +95,7 @@ def testBench_FA(flag=0):
         key = format(ham[smallest[0]],"03b")
         print('Best Key Combination: {}'.format(key))
         print('Hamming Distance: {}'.format(smallest))
+        print('Hamming Average = {}'.format(hamSum/7))
 
     return FA_inst,simulate
 
@@ -107,6 +110,7 @@ def stimulate():
     sim.run()
 
 def convert():
-    A,B,C_in,Sum_out,C_out = [Signal(bool(0)) for i in range(5)]
-    toVerilog(full_adder,A,B,C_in,Sum_out,C_out)
+     A,B,C_in,K1,K2,K3,Sum_out,C_out = [Signal(bool(0)) for i in range(8)]
+     toVHDL(full_adder,A,B,C_in,K1,K2,K3,Sum_out,C_out)
 stimulate()
+convert()

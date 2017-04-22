@@ -1,13 +1,13 @@
 from myhdl import Signal, always_comb, Simulation,delay,instance,intbv,bin,traceSignals,toVerilog
 
-def full_adder(A,B,C_in,Sum_out,C_out):
+def full_adder(A,B,C_in,K,Sum_out,C_out):
     """full adder circuit
     {A,B,C} --- inputs
     {Sum_out,C_out} -- outputs
     """
     @always_comb
     def logic():
-        Sum_out.next = A ^ B ^ C_in
+        Sum_out.next = ((A ^ B) & K) ^ C_in
         C_out.next = (A & B) ^ (C_in & (A ^ B))
     return logic
 
@@ -15,17 +15,37 @@ from random import randrange
 
 def testBench_FA(flag=0):
     """The test bench mark to test the full adder hardware module"""
-    A,B,C_in,Sum_out,C_out = [Signal(bool(0)) for i in range(5)]
-    FA_inst = full_adder(A,B,C_in,Sum_out,C_out)
+    A,B,C_in,K,Sum_out,C_out = [Signal(bool(0)) for i in range(6)]
+    FA_inst = full_adder(A,B,C_in,K,Sum_out,C_out)
+    K=1
     
     @instance
     def simulate():
+        before = []
+        after = []
         print('A  B  Cin  SumOut  Cout')
-        for i in range(10):
+        for i in range(8):
             A.next,B.next,C_in.next = [randrange(2) for i in range(3)]
             yield delay(10)
             print ('{}  {}  {}    {}        {}'.format(bin(A,1),bin(B,1),bin(C_in,1),bin(Sum_out,1),bin(C_out,1)))
-    
+            before.append(bin(Sum_out))
+
+        print('A  B  Cin  SumOut  Cout AFTER')
+        for i in range(8):
+            A.next,B.next,C_in.next = [randrange(2) for i in range(3)]
+            yield delay(10)
+            print ('{}  {}  {}    {}        {}'.format(bin(A,1),bin(B,1),bin(C_in,1),bin(Sum_out,1),bin(C_out,1)))
+            after.append(bin(Sum_out))
+
+        print (before)
+        print (after)
+
+        compare = set(before) ^ set(after) 
+
+        hamming = len(compare)/len(before)
+
+        print('Hamming = {}'.format(hamming))
+
     return FA_inst,simulate
 
 def stimulate_VCD():
@@ -42,4 +62,3 @@ def convert():
     A,B,C_in,Sum_out,C_out = [Signal(bool(0)) for i in range(5)]
     toVerilog(full_adder,A,B,C_in,Sum_out,C_out)
 stimulate()
-convert()

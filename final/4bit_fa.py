@@ -32,6 +32,7 @@ def testBench_FA(flag=0):
     @instance
     def simulate():
         ham = {}
+        hamSum = 0
         for p in range(64):
             keyset = format(p,"06b")
             
@@ -109,14 +110,16 @@ def testBench_FA(flag=0):
             print('Key1: {} Key2: {} Key3: {}'.format(keyset[0],keyset[1],keyset[2]))
             print('Hamming = {}'.format(hamming))
             ham[hamming] = p
+            hamSum += hamming
 
         print('Hamming List:')
         print(ham)
 
         smallest = nsmallest(1, ham, key=lambda x: abs(x-0.5))
-        key = format(ham[smallest[0]],"03b")
+        key = format(ham[smallest[0]],"06b")
         print('Best Key Combination: {}'.format(key))
         print('Hamming Distance: {}'.format(smallest))
+        print('Ave Hamming = {}'.format(hamSum/63))
 
     return FA_inst,simulate
 

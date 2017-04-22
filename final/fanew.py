@@ -91,8 +91,8 @@ def testBench_FA(flag=0):
 
         smallest = nsmallest(1, ham, key=lambda x: abs(x-0.5))
         key = format(ham[smallest[0]],"03b")
-        print('Key: {}'.format(key))
-        print('Hamming: {}'.format(smallest))
+        print('Best Key Combination: {}'.format(key))
+        print('Hamming Distance: {}'.format(smallest))
 
     return FA_inst,simulate
 
