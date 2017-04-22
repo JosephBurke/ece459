@@ -1,4 +1,4 @@
-from myhdl import Signal, always_comb, Simulation,delay,instance,intbv,bin,traceSignals,toVerilog
+from myhdl import *
 
 def full_adder(A,B,C_in,Sum_out,C_out):
     """full adder circuit
@@ -17,15 +17,14 @@ def testBench_FA(flag=0):
     """The test bench mark to test the full adder hardware module"""
     A,B,C_in,Sum_out,C_out = [Signal(bool(0)) for i in range(5)]
     FA_inst = full_adder(A,B,C_in,Sum_out,C_out)
-    
     @instance
+    
     def simulate():
-        print('A  B  Cin  SumOut  Cout')
         for i in range(10):
             A.next,B.next,C_in.next = [randrange(2) for i in range(3)]
             yield delay(10)
-            print ('{}  {}  {}    {}        {}'.format(bin(A,1),bin(B,1),bin(C_in,1),bin(Sum_out,1),bin(C_out,1)))
-    
+            if flag == 1:
+                print("A: {} B: {} C_in: {} Sum_out: {} C_out{}".format(bin(A,1),bin(B,1),bin(C_in,1),bin(Sum_out,1),bin(C_out,1))) 
     return FA_inst,simulate
 
 def stimulate_VCD():
@@ -40,6 +39,6 @@ def stimulate():
 
 def convert():
     A,B,C_in,Sum_out,C_out = [Signal(bool(0)) for i in range(5)]
-    toVerilog(full_adder,A,B,C_in,Sum_out,C_out)
-stimulate()
+    toVHDL(full_adder,A,B,C_in,Sum_out,C_out)
+stimulate_VCD()
 convert()
