@@ -18,12 +18,12 @@ def full_adder(A,B,A1,B1,A2,B2,C_in,K1,K2,K3,K4,K5,K6,K7,K8,K9,Sum_out,Sum1_out,
         C = (Sig2 | Sig3)
         Sig4 = A1 ^ B1 ^ K4
         Sig5 = ((Sig4 & C) ^ K5)
-        Sig5 = not Sig5
+        Sig5 = Sig5
         Sig6 = (A1 & B1) ^ K6
         Sum1_out.next = Sig4 ^ C
         C1 = (Sig5 | Sig6) 
         Sig7 = (A2 ^ B2 ^ K7)
-        Sig7 = not Sig7
+        Sig7 = Sig7
         Sig8 = ((Sig7 & C) ^ K8)
         Sig9 = (A2 & B2) ^ K9
         C_out.next = Sig8 | Sig9
