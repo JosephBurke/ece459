@@ -1,5 +1,6 @@
 from myhdl import Signal, always_comb, Simulation,delay,instance,intbv,bin,traceSignals,toVerilog
 from heapq import nsmallest
+from myhdl import *
 
 stuck = []
 
