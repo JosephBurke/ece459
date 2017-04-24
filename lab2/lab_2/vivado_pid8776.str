@@ -1,0 +1,106 @@
+/*
+
+Vivado v2014.4 (64-bit)
+SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+Process ID: 8776
+
+Current time: 	2/21/17 10:54:07 AM
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1600x900
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.8.0_05 64-bit
+Java home: 	C:/Xilinx/Vivado/2014.4/tps/win64/jre
+
+User name: 	idan8
+User directory: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2
+User country: 	US
+User language: 	en
+User locale: 	en_US
+Vivado preferences path: C:/Users/idan8/AppData/Roaming/Xilinx/Vivado/2014.4/vivado.ini
+Vivado layouts directory: C:/Users/idan8/AppData/Roaming/Xilinx/Vivado/2014.4/layouts/application
+
+GUI allocated memory:	187 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 409 MB
+
+*/
+
+// TclEventType: START_GUI
+// HColorUtils.generateUniqueColorPalette (num colors: 55) elapsed time: 0.7s
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// cm:N (ch:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.xpr} 
+// [GUI Memory]: 37 MB (+36290kb) [00:00:05]
+// [Engine Memory]: 345 MB (+209885kb) [00:00:05]
+// Tcl Message: open_project {C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2/lab_2.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 41 MB (+4415kb) [00:00:06]
+// [Engine Memory]: 369 MB (+25874kb) [00:00:06]
+// [Engine Memory]: 383 MB (+14241kb) [00:00:06]
+// [GUI Memory]: 47 MB (+6351kb) [00:00:07]
+// [Engine Memory]: 409 MB (+27820kb) [00:00:07]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.4/data/ip'. 
+// [Engine Memory]: 413 MB (+3809kb) [00:00:08]
+// HMemoryUtils.trashcanNow. Engine heap size: 419 MB. GUI used memory: 31 MB. Current time: 2/21/17 10:54:07 AM
+// [Engine Memory]: 419 MB (+6262kb) [00:00:08]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 419 MB (+110kb) [00:00:09]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 422 MB (+2502kb) [00:00:09]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 48 MB (+411kb) [00:00:09]
+// [GUI Memory]: 48 MB (+540kb) [00:00:09]
+// [GUI Memory]: 49 MB (+701kb) [00:00:09]
+// [GUI Memory]: 50 MB (+1081kb) [00:00:09]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 51 MB (+1117kb) [00:00:09]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 52 MB (+1081kb) [00:00:09]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 52 MB (+576kb) [00:00:09]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 53 MB (+540kb) [00:00:09]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 54 MB (+1127kb) [00:00:09]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 55 MB (+1081kb) [00:00:09]
+// [GUI Memory]: 56 MB (+1117kb) [00:00:09]
+// [GUI Memory]: 57 MB (+540kb) [00:00:10]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 422 MB (+69kb) [00:00:10]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 425 MB (+3723kb) [00:00:10]
+// TclEventType: FILE_SET_CHANGE
+// Project name: lab_2; location: C:/Users/idan8/Google Drive/UTK/Spring 2017/ECE 459/labs/ece459/lab2/lab_2; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 681.285 ; gain = 150.453 
+dismissDialog("Open Project"); // cm:N (ch:JFrame)
+// [Engine Memory]: 428 MB (+2666kb) [00:00:11]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 437 MB (+9945kb) [00:00:11]
+// [Engine Memory]: 438 MB (+1323kb) [00:00:12]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 24, false); // w:Y (v:I, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_BITSTREAM_SETTINGS
+// Project Settings: addNotify
+selectButton("CANCEL", "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, k:bn)
+dismissDialog("Project Settings"); // k:bn (ch:JFrame)
