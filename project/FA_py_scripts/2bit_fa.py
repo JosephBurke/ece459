@@ -13,6 +13,7 @@ def full_adder(A,B,C_in,K1,K2,K3,Sum_out,C_out):
     def logic():
         Sig1=  (A ^ B ^ K1)
         Sig2 = ((Sig1 & C_in) ^ K2)
+        Sig2 = not Sig2
         Sig3 = (A & B) ^ K3 
         Sum_out.next = Sig1 ^ C_in
         C_out.next = Sig2 | Sig3
