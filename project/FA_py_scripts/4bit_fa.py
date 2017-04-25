@@ -11,13 +11,19 @@ def full_adder(A,B,A1,B1,C_in,K1,K2,K3,K4,K5,K6,Sum_out,Sum1_out,C_out):
     @always_comb
     def logic():
         Sig1= A ^ B ^ K1
+      #  Sig1 = not Sig1
         Sig2 = (Sig1 & C_in) ^ K2
-        Sig3 = (A & B) ^ K3 
+        Sig2 = not Sig2
+        Sig3 = (A & B) ^ K3
+        Sig3 = not Sig3 
         Sum_out.next = Sig1 ^ C_in
         C = (Sig2 or Sig3)
         Sig4 = A1 ^ B1 ^ K4
+       # Sig4 = not Sig4
         Sig5 = (Sig4 & C) ^ K5
+        Sig5 = not Sig5
         Sig6 = (A1 & B1) ^ K6
+       # Sig6 = not Sig6
         Sum1_out.next = Sig4 ^ C
         C_out.next = (Sig5 or Sig6)
     return logic
